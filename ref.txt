@@ -1,0 +1,24 @@
+LLLLLLL BBBBB AAAAA FFF RRRRR O OOOO OO
+------- ----- ----- --- ----- - ---- --
+   7      5     5    3    5   1  4    2
+  
+Opcode: High bit + Low nibble + Constant
+   
+   When low nibble is 0x8 we are in S or B type.
+   
+   When low nibble & 0b111 = 0b101 then whe are in U type.
+   When low nibble is 0xb then we are in J type.
+
+   When low nibble = 0xc then we are in R type.
+   
+riscv is little endian
+In other words, doing:
+li a5, -1
+sw a5, 4(zero)
+is equal to:
+li a5, -1
+sb a5, 4(zero)
+sb zero, 5(zero)
+sb zero, 6(zero)
+sb zero, 7(zero)
+
