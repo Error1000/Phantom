@@ -1,7 +1,8 @@
 LLLLLLL BBBBB AAAAA FFF RRRRR O OOOO OO
 ------- ----- ----- --- ----- - ---- --
    7      5     5    3    5   1  4    2
-  
+  f7     f6    f5   f4   f3  f2  f1  f0
+
 Opcode: High bit + Low nibble + Constant
    
    When low nibble is 0x8 we are in S or B type.
@@ -10,7 +11,27 @@ Opcode: High bit + Low nibble + Constant
    When low nibble is 0xb then we are in J type.
 
    When low nibble = 0xc then we are in R type.
-   
+
+
+f2, f1 and f0 are part of the opcode so not handeled
+If in S/B variant then immsb |= f3 else rd = f3. ( This handles f3 )
+
+// Now we only need to sort out f4,f5,f6,f7
+
+If in U/J variant then immuj = f4..f5..f6..f7 
+else:
+   funct3 = f4
+   rs1 = f5
+   If in I variant then immi = f6..f7 
+   else 
+      rs2 = f6
+      If in S/B variant then immsb |= f7 else funct7 = f7
+
+Finally we merge immsb, immi and immuj into one immediate since only one of them could be non-zero because
+they are tied to variants.
+
+
+
 riscv is little endian
 In other words, doing:
 li a5, -1
