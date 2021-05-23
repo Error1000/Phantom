@@ -761,7 +761,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="1080"/>
+      <pos x="1460" y="980"/>
     </visualElement>
     <visualElement>
       <elementName>CounterPreset</elementName>
@@ -891,7 +891,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="-200" y="140"/>
+      <pos x="-200" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -905,7 +905,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="-340" y="240"/>
+      <pos x="-340" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -919,7 +919,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="-400" y="240"/>
+      <pos x="-400" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -933,7 +933,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="-480" y="240"/>
+      <pos x="-480" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -947,17 +947,7 @@
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="20" y="500"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="620" y="780"/>
+      <pos x="20" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -968,16 +958,6 @@
         </entry>
       </elementAttributes>
       <pos x="660" y="740"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="620" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -1075,7 +1055,7 @@
           <string>12</string>
         </entry>
       </elementAttributes>
-      <pos x="-120" y="-200"/>
+      <pos x="-120" y="-80"/>
     </visualElement>
     <visualElement>
       <elementName>Demultiplexer</elementName>
@@ -1089,7 +1069,7 @@
           <int>7</int>
         </entry>
       </elementAttributes>
-      <pos x="-800" y="-60"/>
+      <pos x="-800" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>Demultiplexer</elementName>
@@ -1125,7 +1105,7 @@
           <string>20</string>
         </entry>
       </elementAttributes>
-      <pos x="-340" y="-160"/>
+      <pos x="-380" y="-180"/>
     </visualElement>
     <visualElement>
       <elementName>Demultiplexer</elementName>
@@ -1317,7 +1297,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="-660" y="-920"/>
+      <pos x="-680" y="-920"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1331,7 +1311,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="-600" y="-920"/>
+      <pos x="-580" y="-920"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1345,7 +1325,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="120" y="-200"/>
+      <pos x="120" y="-40"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -1405,7 +1385,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-920" y="-420"/>
+      <pos x="-920" y="-500"/>
     </visualElement>
     <visualElement>
       <elementName>Demultiplexer</elementName>
@@ -1419,7 +1399,7 @@
           <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="-720" y="-160"/>
+      <pos x="-720" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Demultiplexer</elementName>
@@ -1433,7 +1413,7 @@
           <int>7</int>
         </entry>
       </elementAttributes>
-      <pos x="-780" y="-200"/>
+      <pos x="-780" y="-40"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1451,7 +1431,7 @@
           <string>12</string>
         </entry>
       </elementAttributes>
-      <pos x="-420" y="-80"/>
+      <pos x="-420" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1469,7 +1449,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="-980" y="-280"/>
+      <pos x="-980" y="-380"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1487,7 +1467,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="-800" y="-80"/>
+      <pos x="-800" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1501,7 +1481,7 @@
           <string>I type</string>
         </entry>
       </elementAttributes>
-      <pos x="-700" y="-100"/>
+      <pos x="-700" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1518,7 +1498,7 @@ field differs in
 R/S/B types.</string>
         </entry>
       </elementAttributes>
-      <pos x="-1020" y="-60"/>
+      <pos x="-1020" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1600,7 +1580,7 @@ R/S/B types.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-120" y="-160"/>
+      <pos x="-120" y="-40"/>
     </visualElement>
     <visualElement>
       <elementName>BitExtender</elementName>
@@ -1610,15 +1590,11 @@ R/S/B types.</string>
           <int>20</int>
         </entry>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
           <string>outputBits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-340" y="-120"/>
+      <pos x="-380" y="-40"/>
     </visualElement>
     <visualElement>
       <elementName>BitExtender</elementName>
@@ -1632,7 +1608,7 @@ R/S/B types.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-400" y="-20"/>
+      <pos x="-340" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -1654,7 +1630,7 @@ R/S/B types.</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="-180" y="-60"/>
+      <pos x="-120" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -1664,7 +1640,7 @@ R/S/B types.</string>
           <int>7</int>
         </entry>
       </elementAttributes>
-      <pos x="60" y="540"/>
+      <pos x="60" y="780"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -1678,7 +1654,7 @@ R/S/B types.</string>
           <int>7</int>
         </entry>
       </elementAttributes>
-      <pos x="40" y="560"/>
+      <pos x="40" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1696,7 +1672,7 @@ R/S/B types.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="-160" y="660"/>
+      <pos x="-160" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>ROM</elementName>
@@ -1715,46 +1691,46 @@ R/S/B types.</string>
         </entry>
         <entry>
           <string>Data</string>
-          <data>38005,38005,38005,38005,3a805,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,3a805,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,3a8c5,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,3a8c5,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,3aaa5,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,3aaa5,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-3a9a5,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,3a9a5,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,3a845,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,3a845,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,3a825,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,3a825,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,3ac9d,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-3ac9d,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,3a885,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,3a885,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,38005,
-38005,38005,38005,38005,38005,38005,38005,38005</data>
+          <data>10005,10005,10005,10005,14805,54b1d,10005,10005,10005,10005,10005,10005,11805,d4005,
+10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,e41f,
+10005,10005,10005,10005,10005,10005,10005,10005,14805,54b1d,10005,10005,10005,10005,
+10005,10005,11805,d4005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,
+10005,10005,10005,e41f,10005,10005,10005,10005,10005,10005,10005,10005,148c5,54b1d,
+10005,10005,10005,10005,10005,10005,118c5,d4005,10005,10005,10005,10005,10005,10005,
+10005,10005,10005,10005,10005,10005,10005,e41f,10005,10005,10005,10005,10005,10005,
+10005,10005,148c5,54b1d,10005,10005,10005,10005,10005,10005,118c5,d4005,10005,10005,
+10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,e41f,10005,10005,
+10005,10005,10005,10005,10005,10005,14aa5,54b1d,10005,10005,10005,10005,10005,10005,
+11aa5,d4005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,
+10005,e41f,10005,10005,10005,10005,10005,10005,10005,10005,14aa5,54b1d,10005,10005,
+10005,10005,10005,10005,11aa5,d4005,10005,10005,10005,10005,10005,10005,10005,10005,
+10005,10005,10005,10005,10005,e41f,10005,10005,10005,10005,10005,10005,10005,10005,
+149a5,54b1d,10005,10005,10005,10005,10005,10005,119a5,d4005,10005,10005,10005,10005,
+10005,10005,10005,10005,10005,10005,10005,10005,10005,e41f,10005,10005,10005,10005,
+10005,10005,10005,10005,149a5,54b1d,10005,10005,10005,10005,10005,10005,119a5,d4005,
+10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,e41f,
+10005,10005,10005,10005,10005,10005,10005,10005,14845,54b1d,10005,10005,10005,10005,
+10005,10005,11845,d4005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,
+10005,10005,10005,e41f,10005,10005,10005,10005,10005,10005,10005,10005,14845,54b1d,
+10005,10005,10005,10005,10005,10005,11845,d4005,10005,10005,10005,10005,10005,10005,
+10005,10005,10005,10005,10005,10005,10005,e41f,10005,10005,10005,10005,10005,10005,
+10005,10005,14825,54b1d,10005,10005,10005,10005,10005,10005,11825,d4005,10005,10005,
+10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,e41f,10005,10005,
+10005,10005,10005,10005,10005,10005,14825,54b1d,10005,10005,10005,10005,10005,10005,
+11825,d4005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,
+10005,e41f,10005,10005,10005,10005,10005,10005,10005,10005,14865,54b1d,10005,10005,
+10005,10005,10005,10005,11865,d4005,10005,10005,10005,10005,10005,10005,10005,10005,
+10005,10005,10005,10005,10005,e41f,10005,10005,10005,10005,10005,10005,10005,10005,
+14865,54b1d,10005,10005,10005,10005,10005,10005,11865,d4005,10005,10005,10005,10005,
+10005,10005,10005,10005,10005,10005,10005,10005,10005,e41f,10005,10005,10005,10005,
+10005,10005,10005,10005,14885,54b1d,10005,10005,10005,10005,10005,10005,11885,d4005,
+10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,e41f,
+10005,10005,10005,10005,10005,10005,10005,10005,14885,54b1d,10005,10005,10005,10005,
+10005,10005,11885,d4005,10005,10005,10005,10005,10005,10005,10005,10005,10005,10005,
+10005,10005,10005,e41f,10005,10005,10005,10005</data>
         </entry>
       </elementAttributes>
-      <pos x="-60" y="840"/>
+      <pos x="-40" y="1080"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1772,7 +1748,7 @@ R/S/B types.</string>
           <string>9</string>
         </entry>
       </elementAttributes>
-      <pos x="80" y="740"/>
+      <pos x="80" y="980"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1790,7 +1766,7 @@ R/S/B types.</string>
           <string>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
         </entry>
       </elementAttributes>
-      <pos x="-140" y="860"/>
+      <pos x="-140" y="1100"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1808,7 +1784,7 @@ R/S/B types.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="-120" y="660"/>
+      <pos x="-120" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1826,7 +1802,7 @@ R/S/B types.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="-80" y="660"/>
+      <pos x="-80" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1844,7 +1820,7 @@ R/S/B types.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="-40" y="660"/>
+      <pos x="-40" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1862,7 +1838,7 @@ R/S/B types.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-200" y="280"/>
+      <pos x="-200" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1872,17 +1848,17 @@ R/S/B types.</string>
           <string>SEL2</string>
         </entry>
       </elementAttributes>
-      <pos x="1540" y="740"/>
+      <pos x="1500" y="700"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
           <string>Description</string>
-          <string>SEL2</string>
+          <string>SEL1</string>
         </entry>
       </elementAttributes>
-      <pos x="1520" y="-1260"/>
+      <pos x="1520" y="-1240"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1954,7 +1930,7 @@ R/S/B types.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="400" y="1700"/>
+      <pos x="380" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1972,7 +1948,7 @@ R/S/B types.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="440" y="1700"/>
+      <pos x="420" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -2001,30 +1977,6 @@ R/S/B types.</string>
         </entry>
       </elementAttributes>
       <pos x="780" y="1080"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Multiplexer</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="1380" y="1060"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1340" y="1100"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -2073,24 +2025,6 @@ R/S/B types.</string>
         </entry>
         <entry>
           <string>Description</string>
-          <string>ALU_INVOUT</string>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-      </elementAttributes>
-      <pos x="480" y="1700"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>17</int>
-        </entry>
-        <entry>
-          <string>Description</string>
           <string>ALU_OP 0</string>
         </entry>
         <entry>
@@ -2098,7 +2032,7 @@ R/S/B types.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="600" y="1700"/>
+      <pos x="580" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2109,14 +2043,14 @@ R/S/B types.</string>
         </entry>
         <entry>
           <string>Description</string>
-          <string>ALU_INVA</string>
+          <string>ALU_SWTCHA</string>
         </entry>
         <entry>
           <string>rotation</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="760" y="1700"/>
+      <pos x="740" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2127,14 +2061,14 @@ R/S/B types.</string>
         </entry>
         <entry>
           <string>Description</string>
-          <string>ALU_INVB</string>
+          <string>ALU_SWTCHB</string>
         </entry>
         <entry>
           <string>rotation</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="720" y="1700"/>
+      <pos x="700" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2152,7 +2086,7 @@ R/S/B types.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="800" y="1700"/>
+      <pos x="780" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2162,7 +2096,7 @@ R/S/B types.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="800" y="1580"/>
+      <pos x="780" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2172,7 +2106,7 @@ R/S/B types.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="760" y="1580"/>
+      <pos x="740" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2182,7 +2116,7 @@ R/S/B types.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="720" y="1580"/>
+      <pos x="700" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2192,7 +2126,7 @@ R/S/B types.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="600" y="1580"/>
+      <pos x="580" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2202,7 +2136,7 @@ R/S/B types.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="480" y="1580"/>
+      <pos x="420" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2212,17 +2146,7 @@ R/S/B types.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="440" y="1580"/>
-    </visualElement>
-    <visualElement>
-      <elementName>PullDown</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-      </elementAttributes>
-      <pos x="400" y="1580"/>
+      <pos x="380" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2254,7 +2178,7 @@ R/S/B types.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="840" y="1700"/>
+      <pos x="820" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2264,7 +2188,7 @@ R/S/B types.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="840" y="1580"/>
+      <pos x="820" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2274,7 +2198,7 @@ R/S/B types.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="880" y="1580"/>
+      <pos x="860" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2292,7 +2216,7 @@ R/S/B types.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="880" y="1700"/>
+      <pos x="860" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2416,11 +2340,11 @@ instead of counting</string>
         </entry>
         <entry>
           <string>Description</string>
-          <string>Control dignals change on the
-down-clock to ensure that
-everything finishes
-updating, since everything else
-work on the up-clock.</string>
+          <string>Control signals change on the
+down-clock, since that&apos;s
+when we DECODE.
+We EXECUTE and FETCH on
+the up-clock.</string>
         </entry>
       </elementAttributes>
       <pos x="-40" y="-1320"/>
@@ -2441,7 +2365,7 @@ work on the up-clock.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="360" y="1700"/>
+      <pos x="300" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2451,7 +2375,7 @@ work on the up-clock.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="360" y="1580"/>
+      <pos x="300" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
@@ -2461,7 +2385,7 @@ work on the up-clock.</string>
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="-20" y="800"/>
+      <pos x="0" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2479,7 +2403,7 @@ work on the up-clock.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="320" y="1700"/>
+      <pos x="260" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2489,7 +2413,7 @@ work on the up-clock.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="320" y="1580"/>
+      <pos x="260" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2499,63 +2423,7 @@ work on the up-clock.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="280" y="1580"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>17</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>IR_CEN</string>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-      </elementAttributes>
-      <pos x="280" y="1700"/>
-    </visualElement>
-    <visualElement>
-      <elementName>PullDown</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-      </elementAttributes>
-      <pos x="240" y="1580"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>17</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>IR_LOAD</string>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-      </elementAttributes>
-      <pos x="240" y="1700"/>
-    </visualElement>
-    <visualElement>
-      <elementName>PullDown</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-      </elementAttributes>
-      <pos x="200" y="1580"/>
+      <pos x="220" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2573,7 +2441,7 @@ work on the up-clock.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="200" y="1700"/>
+      <pos x="220" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2583,7 +2451,7 @@ work on the up-clock.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="160" y="1580"/>
+      <pos x="180" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2601,7 +2469,7 @@ work on the up-clock.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="160" y="1700"/>
+      <pos x="180" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2629,7 +2497,7 @@ work on the up-clock.</string>
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="640" y="1580"/>
+      <pos x="620" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2647,17 +2515,7 @@ work on the up-clock.</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="640" y="1700"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>CI</string>
-        </entry>
-      </elementAttributes>
-      <pos x="620" y="940"/>
+      <pos x="620" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2667,7 +2525,7 @@ work on the up-clock.</string>
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="-700" y="-1080"/>
+      <pos x="-740" y="-1080"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -2684,20 +2542,6 @@ work on the up-clock.</string>
       <pos x="-60" y="-1340"/>
     </visualElement>
     <visualElement>
-      <elementName>PullDown</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-40" y="-1380"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
@@ -2709,7 +2553,7 @@ work on the up-clock.</string>
           <value v="1" z="false"/>
         </entry>
       </elementAttributes>
-      <pos x="560" y="-2180"/>
+      <pos x="560" y="-2120"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -2730,25 +2574,11 @@ work on the up-clock.</string>
       <pos x="-20" y="-1060"/>
     </visualElement>
     <visualElement>
-      <elementName>PullDown</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-80" y="-1060"/>
-    </visualElement>
-    <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
           <string>textFontSize</string>
-          <int>17</int>
+          <int>14</int>
         </entry>
         <entry>
           <string>Description</string>
@@ -2757,11 +2587,19 @@ on the down-clock so the
 instruction which is cached in the
 irs ( a.k.a the first instruction )
 gets to be parsed instead of
-acting like a no-op/pipeline
-bubble.</string>
+acting like a no-op.
+If HLT were to change
+on a high clock
+then there would have
+never been a down clock before
+it, which means the cpu
+didn&apos;t load the instruction
+even though it thinks so
+which causes it to skip
+over it.</string>
         </entry>
       </elementAttributes>
-      <pos x="560" y="-2000"/>
+      <pos x="720" y="-2240"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2775,51 +2613,13 @@ bubble.</string>
           <string>NOOP here can also be used as a way
 to defer LOAD-ing to the next 
 instruction (a.k.a creating a 
-pipeline bubble) to the next cycle 
+pipeline stall) to the next cycle 
 if the current instruction needs 
 access to ram in some way which 
 can not be done in parallel with LOAD.</string>
         </entry>
       </elementAttributes>
       <pos x="-800" y="-1360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="620" y="-2180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="700" y="-2060"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>14</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>Manual RS-nor latch for fun.</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="-2220"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2836,11 +2636,12 @@ executing the instruction
 that is cached in the IRs
 while in RST. To achive that
 it replaces all instructions
-that sould have otherwise gone
-to the decoder with NOOps.</string>
+that sould have otherwise 
+gone to the decoder 
+with NOOps.</string>
         </entry>
       </elementAttributes>
-      <pos x="-40" y="-1000"/>
+      <pos x="-20" y="-1000"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2860,7 +2661,7 @@ low to high clock edge )
  wihile in HLT to fill the IRs (a.k.a pipeline)</string>
         </entry>
       </elementAttributes>
-      <pos x="-60" y="-2360"/>
+      <pos x="-100" y="-2340"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -2930,6 +2731,10 @@ low to high clock edge )
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
           <string>Input Splitting</string>
           <string>32</string>
         </entry>
@@ -2938,7 +2743,7 @@ low to high clock edge )
           <string>31,1</string>
         </entry>
       </elementAttributes>
-      <pos x="1140" y="1020"/>
+      <pos x="1160" y="1080"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -2958,7 +2763,7 @@ low to high clock edge )
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="520" y="1580"/>
+      <pos x="500" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2976,7 +2781,7 @@ low to high clock edge )
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="520" y="1700"/>
+      <pos x="500" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2994,7 +2799,7 @@ low to high clock edge )
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="680" y="1700"/>
+      <pos x="660" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -3004,27 +2809,7 @@ low to high clock edge )
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="680" y="1580"/>
-    </visualElement>
-    <visualElement>
-      <elementName>PullDown</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1000" y="1180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>PullDown</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1000" y="1180"/>
+      <pos x="660" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>Sub</elementName>
@@ -3048,7 +2833,7 @@ low to high clock edge )
           <string>32</string>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="1100"/>
+      <pos x="1200" y="1160"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -3058,11 +2843,15 @@ low to high clock edge )
           <int>31</int>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="1120"/>
+      <pos x="1200" y="1180"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
       <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
         <entry>
           <string>Input Splitting</string>
           <string>1,1</string>
@@ -3070,10 +2859,6 @@ low to high clock edge )
         <entry>
           <string>Output Splitting</string>
           <string>2</string>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
         </entry>
       </elementAttributes>
       <pos x="1360" y="940"/>
@@ -3086,7 +2871,7 @@ low to high clock edge )
           <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="560" y="1580"/>
+      <pos x="540" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -3104,21 +2889,7 @@ low to high clock edge )
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="560" y="1700"/>
-    </visualElement>
-    <visualElement>
-      <elementName>PullDown</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1280" y="1000"/>
+      <pos x="540" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -3144,7 +2915,8 @@ between testing wheter the
 result is negative (a.k.a sign bit is 1)
 and looking at wheter the
 carry out of subtraction is set.
-that is, when dealing with unsigned 
+that differance occurs, 
+when dealing with unsigned 
 numbers  that use the first bit,
 because 0xFFFFFFFF. is negative in 
 32-bit 2&apos;s complement but positive 
@@ -3153,8 +2925,7 @@ basically the carry out of
 subtraction is a little like
 the sign bit of a 33-bit
 adder where the second
-input is inverted and Cin is on
-that is only allowed to add 32 bits,
+input is inverted and Cin is on,
 i think.
 This differnce was encountered when
 implementing SLTI and SLTIU.</string>
@@ -3235,7 +3006,7 @@ implementing SLTI and SLTIU.</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>30,1,1</string>
+          <string>10,1,21</string>
         </entry>
       </elementAttributes>
       <pos x="880" y="1340"/>
@@ -3284,8 +3055,704 @@ implementing SLTI and SLTIU.</string>
       </elementAttributes>
       <pos x="700" y="800"/>
     </visualElement>
+    <visualElement>
+      <elementName>D_FF</elementName>
+      <elementAttributes/>
+      <pos x="620" y="-2120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="580" y="-2100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>U/J type</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-440" y="-160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>I type</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-460" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>S/B type</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-180" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Selector Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-280" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>12,20</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>32</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-340" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>12</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-340" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="120" y="1420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="140" y="1740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>CNTRL_UPIMM</string>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="140" y="1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="100" y="1740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>ROUTB TO RINB</string>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="100" y="1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="1480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>2,30</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>32</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1340" y="1180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>32</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>30,2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1280" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1340" y="1160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Hardcoded
+shift left by 2.
+Translate native address
+to byte oriented address
+.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="1040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>32</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2,30</string>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>30, 1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>32</string>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>2,30</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>32</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="-1720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>32</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>30,2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="-1780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="-1740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Add</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="-1800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>4</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="-1780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="-1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="780" y="-1740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="1020"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="1740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>CALC_RET_ADDR</string>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-740" y="-1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-640" y="-1180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="1740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>ALU__MOUT</string>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>LOAD_IR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-620" y="-1200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>30</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>29,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Hardcoded arithmetic 
+shift right by 2.
+Tanslets byte address to
+native address</string>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>20</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>8,1,10,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-300" y="-200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1, 10, 1, 8, 1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>21</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-160" y="-140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-160" y="-160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Sub</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="-1660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="-1640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="580" y="-1560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>19</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="-1380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>19</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-80" y="-1060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-260" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>BitExtender</elementName>
+      <elementAttributes>
+        <entry>
+          <string>inputBits</string>
+          <int>21</int>
+        </entry>
+        <entry>
+          <string>outputBits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-380" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-320" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="-380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>proper J type 
+handling</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-260" y="-240"/>
+    </visualElement>
   </visualElements>
   <wires>
+    <wire>
+      <p1 x="600" y="-360"/>
+      <p2 x="620" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-940"/>
+      <p2 x="560" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="0"/>
+      <p2 x="-140" y="0"/>
+    </wire>
     <wire>
       <p1 x="1120" y="0"/>
       <p2 x="1140" y="0"/>
@@ -3299,8 +3766,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1220" y="0"/>
     </wire>
     <wire>
-      <p1 x="-840" y="0"/>
-      <p2 x="-300" y="0"/>
+      <p1 x="-300" y="0"/>
+      <p2 x="-280" y="0"/>
     </wire>
     <wire>
       <p1 x="760" y="-1540"/>
@@ -3335,12 +3802,12 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1620" y="520"/>
     </wire>
     <wire>
-      <p1 x="700" y="-2060"/>
-      <p2 x="720" y="-2060"/>
+      <p1 x="540" y="-2060"/>
+      <p2 x="700" y="-2060"/>
     </wire>
     <wire>
-      <p1 x="-460" y="2060"/>
-      <p2 x="240" y="2060"/>
+      <p1 x="-300" y="2060"/>
+      <p2 x="540" y="2060"/>
     </wire>
     <wire>
       <p1 x="1400" y="-1040"/>
@@ -3351,24 +3818,24 @@ implementing SLTI and SLTIU.</string>
       <p2 x="540" y="-1040"/>
     </wire>
     <wire>
-      <p1 x="1400" y="1040"/>
-      <p2 x="2020" y="1040"/>
-    </wire>
-    <wire>
       <p1 x="740" y="1040"/>
       <p2 x="780" y="1040"/>
     </wire>
     <wire>
-      <p1 x="1160" y="1040"/>
-      <p2 x="1180" y="1040"/>
-    </wire>
-    <wire>
-      <p1 x="1320" y="1040"/>
-      <p2 x="1340" y="1040"/>
-    </wire>
-    <wire>
       <p1 x="1000" y="1040"/>
       <p2 x="1080" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="1040"/>
+      <p2 x="1440" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="1040"/>
+      <p2 x="0" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="-320" y="-20"/>
+      <p2 x="-280" y="-20"/>
     </wire>
     <wire>
       <p1 x="1000" y="-20"/>
@@ -3387,12 +3854,12 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="-20"/>
     </wire>
     <wire>
-      <p1 x="-420" y="-20"/>
-      <p2 x="-400" y="-20"/>
+      <p1 x="-940" y="-20"/>
+      <p2 x="-820" y="-20"/>
     </wire>
     <wire>
-      <p1 x="-340" y="-20"/>
-      <p2 x="-260" y="-20"/>
+      <p1 x="-740" y="-20"/>
+      <p2 x="-700" y="-20"/>
     </wire>
     <wire>
       <p1 x="1020" y="20"/>
@@ -3407,7 +3874,23 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="20"/>
     </wire>
     <wire>
-      <p1 x="440" y="-1560"/>
+      <p1 x="-940" y="20"/>
+      <p2 x="-760" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-400" y="20"/>
+      <p2 x="-340" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="20"/>
+      <p2 x="-160" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="-1560"/>
+      <p2 x="560" y="-1560"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-1560"/>
       <p2 x="720" y="-1560"/>
     </wire>
     <wire>
@@ -3435,16 +3918,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1620" y="540"/>
     </wire>
     <wire>
-      <p1 x="-140" y="540"/>
-      <p2 x="60" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="-2080"/>
-      <p2 x="620" y="-2080"/>
-    </wire>
-    <wire>
-      <p1 x="-480" y="2080"/>
-      <p2 x="200" y="2080"/>
+      <p1 x="-320" y="2080"/>
+      <p2 x="500" y="2080"/>
     </wire>
     <wire>
       <p1 x="1380" y="-1060"/>
@@ -3455,20 +3930,20 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-60" y="-1060"/>
     </wire>
     <wire>
-      <p1 x="1460" y="1060"/>
-      <p2 x="2040" y="1060"/>
-    </wire>
-    <wire>
-      <p1 x="1340" y="1060"/>
-      <p2 x="1380" y="1060"/>
-    </wire>
-    <wire>
       <p1 x="1020" y="1060"/>
       <p2 x="1080" y="1060"/>
     </wire>
     <wire>
-      <p1 x="-900" y="-40"/>
-      <p2 x="-840" y="-40"/>
+      <p1 x="-140" y="1060"/>
+      <p2 x="-100" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="-320" y="-40"/>
+      <p2 x="-280" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="-400" y="-40"/>
+      <p2 x="-380" y="-40"/>
     </wire>
     <wire>
       <p1 x="1120" y="-40"/>
@@ -3483,6 +3958,10 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1200" y="-40"/>
     </wire>
     <wire>
+      <p1 x="-800" y="-40"/>
+      <p2 x="-760" y="-40"/>
+    </wire>
+    <wire>
       <p1 x="1120" y="40"/>
       <p2 x="1140" y="40"/>
     </wire>
@@ -3495,8 +3974,12 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1200" y="40"/>
     </wire>
     <wire>
-      <p1 x="-900" y="40"/>
-      <p2 x="140" y="40"/>
+      <p1 x="-320" y="40"/>
+      <p2 x="-300" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="-420" y="40"/>
+      <p2 x="-380" y="40"/>
     </wire>
     <wire>
       <p1 x="-1120" y="-1580"/>
@@ -3527,35 +4010,27 @@ implementing SLTI and SLTIU.</string>
       <p2 x="800" y="-560"/>
     </wire>
     <wire>
+      <p1 x="-340" y="560"/>
+      <p2 x="560" y="560"/>
+    </wire>
+    <wire>
       <p1 x="1460" y="560"/>
       <p2 x="1620" y="560"/>
     </wire>
     <wire>
-      <p1 x="40" y="560"/>
-      <p2 x="60" y="560"/>
+      <p1 x="200" y="-2100"/>
+      <p2 x="580" y="-2100"/>
     </wire>
     <wire>
-      <p1 x="120" y="560"/>
-      <p2 x="140" y="560"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="-2100"/>
-      <p2 x="720" y="-2100"/>
-    </wire>
-    <wire>
-      <p1 x="-500" y="2100"/>
-      <p2 x="160" y="2100"/>
+      <p1 x="-340" y="2100"/>
+      <p2 x="460" y="2100"/>
     </wire>
     <wire>
       <p1 x="1360" y="-1080"/>
       <p2 x="1600" y="-1080"/>
     </wire>
     <wire>
-      <p1 x="-1060" y="-1080"/>
-      <p2 x="-820" y="-1080"/>
-    </wire>
-    <wire>
-      <p1 x="-700" y="-1080"/>
+      <p1 x="-740" y="-1080"/>
       <p2 x="-680" y="-1080"/>
     </wire>
     <wire>
@@ -3563,20 +4038,16 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-20" y="-1080"/>
     </wire>
     <wire>
+      <p1 x="1140" y="1080"/>
+      <p2 x="1160" y="1080"/>
+    </wire>
+    <wire>
       <p1 x="760" y="1080"/>
       <p2 x="780" y="1080"/>
     </wire>
     <wire>
-      <p1 x="1480" y="1080"/>
-      <p2 x="1500" y="1080"/>
-    </wire>
-    <wire>
-      <p1 x="1420" y="1080"/>
-      <p2 x="1440" y="1080"/>
-    </wire>
-    <wire>
-      <p1 x="1320" y="1080"/>
-      <p2 x="1340" y="1080"/>
+      <p1 x="-40" y="1080"/>
+      <p2 x="80" y="1080"/>
     </wire>
     <wire>
       <p1 x="1020" y="-60"/>
@@ -3589,10 +4060,6 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="780" y="-60"/>
       <p2 x="980" y="-60"/>
-    </wire>
-    <wire>
-      <p1 x="-340" y="-60"/>
-      <p2 x="-280" y="-60"/>
     </wire>
     <wire>
       <p1 x="1000" y="60"/>
@@ -3627,6 +4094,10 @@ implementing SLTI and SLTIU.</string>
       <p2 x="960" y="-1600"/>
     </wire>
     <wire>
+      <p1 x="260" y="1600"/>
+      <p2 x="1480" y="1600"/>
+    </wire>
+    <wire>
       <p1 x="-960" y="-580"/>
       <p2 x="-860" y="-580"/>
     </wire>
@@ -3655,8 +4126,24 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="-580"/>
     </wire>
     <wire>
+      <p1 x="-400" y="580"/>
+      <p2 x="580" y="580"/>
+    </wire>
+    <wire>
       <p1 x="1480" y="580"/>
       <p2 x="1620" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="-2120"/>
+      <p2 x="620" y="-2120"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-2120"/>
+      <p2 x="700" y="-2120"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="2120"/>
+      <p2 x="420" y="2120"/>
     </wire>
     <wire>
       <p1 x="-580" y="-1100"/>
@@ -3679,12 +4166,12 @@ implementing SLTI and SLTIU.</string>
       <p2 x="900" y="1100"/>
     </wire>
     <wire>
-      <p1 x="1160" y="1100"/>
-      <p2 x="1200" y="1100"/>
+      <p1 x="-360" y="-80"/>
+      <p2 x="-280" y="-80"/>
     </wire>
     <wire>
-      <p1 x="-780" y="-80"/>
-      <p2 x="-440" y="-80"/>
+      <p1 x="-220" y="-80"/>
+      <p2 x="-140" y="-80"/>
     </wire>
     <wire>
       <p1 x="1120" y="-80"/>
@@ -3699,8 +4186,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1220" y="-80"/>
     </wire>
     <wire>
-      <p1 x="-260" y="-80"/>
-      <p2 x="-220" y="-80"/>
+      <p1 x="-720" y="80"/>
+      <p2 x="-420" y="80"/>
     </wire>
     <wire>
       <p1 x="1120" y="80"/>
@@ -3715,12 +4202,20 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1220" y="80"/>
     </wire>
     <wire>
+      <p1 x="-320" y="80"/>
+      <p2 x="-280" y="80"/>
+    </wire>
+    <wire>
       <p1 x="-1140" y="-1620"/>
       <p2 x="-80" y="-1620"/>
     </wire>
     <wire>
       <p1 x="-20" y="-1620"/>
       <p2 x="260" y="-1620"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="1620"/>
+      <p2 x="1500" y="1620"/>
     </wire>
     <wire>
       <p1 x="1120" y="-600"/>
@@ -3739,6 +4234,10 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1080" y="-600"/>
     </wire>
     <wire>
+      <p1 x="-480" y="600"/>
+      <p2 x="620" y="600"/>
+    </wire>
+    <wire>
       <p1 x="1500" y="600"/>
       <p2 x="1620" y="600"/>
     </wire>
@@ -3747,8 +4246,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1380" y="600"/>
     </wire>
     <wire>
-      <p1 x="600" y="-2140"/>
-      <p2 x="620" y="-2140"/>
+      <p1 x="-380" y="2140"/>
+      <p2 x="380" y="2140"/>
     </wire>
     <wire>
       <p1 x="1320" y="-1120"/>
@@ -3759,16 +4258,24 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-580" y="-1120"/>
     </wire>
     <wire>
-      <p1 x="-1080" y="-1120"/>
+      <p1 x="-740" y="-1120"/>
       <p2 x="-680" y="-1120"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="1120"/>
+      <p2 x="1280" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1120"/>
+      <p2 x="1320" y="1120"/>
     </wire>
     <wire>
       <p1 x="740" y="1120"/>
       <p2 x="780" y="1120"/>
     </wire>
     <wire>
-      <p1 x="-720" y="-100"/>
-      <p2 x="-420" y="-100"/>
+      <p1 x="-340" y="-100"/>
+      <p2 x="-260" y="-100"/>
     </wire>
     <wire>
       <p1 x="1000" y="-100"/>
@@ -3787,12 +4294,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="-100"/>
     </wire>
     <wire>
-      <p1 x="-180" y="-100"/>
-      <p2 x="-120" y="-100"/>
-    </wire>
-    <wire>
-      <p1 x="-280" y="-100"/>
-      <p2 x="-200" y="-100"/>
+      <p1 x="-780" y="100"/>
+      <p2 x="-440" y="100"/>
     </wire>
     <wire>
       <p1 x="1020" y="100"/>
@@ -3805,14 +4308,6 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="740" y="100"/>
       <p2 x="980" y="100"/>
-    </wire>
-    <wire>
-      <p1 x="-800" y="100"/>
-      <p2 x="-140" y="100"/>
-    </wire>
-    <wire>
-      <p1 x="-60" y="100"/>
-      <p2 x="0" y="100"/>
     </wire>
     <wire>
       <p1 x="-140" y="-1640"/>
@@ -3839,16 +4334,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1620" y="620"/>
     </wire>
     <wire>
-      <p1 x="700" y="-2160"/>
-      <p2 x="720" y="-2160"/>
-    </wire>
-    <wire>
-      <p1 x="720" y="-2160"/>
-      <p2 x="760" y="-2160"/>
-    </wire>
-    <wire>
-      <p1 x="880" y="2160"/>
-      <p2 x="1820" y="2160"/>
+      <p1 x="-400" y="2160"/>
+      <p2 x="340" y="2160"/>
     </wire>
     <wire>
       <p1 x="-320" y="-1140"/>
@@ -3863,6 +4350,10 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1600" y="-1140"/>
     </wire>
     <wire>
+      <p1 x="-420" y="-120"/>
+      <p2 x="-160" y="-120"/>
+    </wire>
+    <wire>
       <p1 x="1120" y="-120"/>
       <p2 x="1140" y="-120"/>
     </wire>
@@ -3873,6 +4364,10 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="1180" y="-120"/>
       <p2 x="1200" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-900" y="120"/>
+      <p2 x="-840" y="120"/>
     </wire>
     <wire>
       <p1 x="1120" y="120"/>
@@ -3887,20 +4382,20 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1200" y="120"/>
     </wire>
     <wire>
-      <p1 x="-560" y="120"/>
-      <p2 x="-100" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="-20" y="120"/>
-      <p2 x="20" y="120"/>
-    </wire>
-    <wire>
       <p1 x="-100" y="-1660"/>
       <p2 x="-80" y="-1660"/>
     </wire>
     <wire>
       <p1 x="700" y="-1660"/>
       <p2 x="940" y="-1660"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="-1660"/>
+      <p2 x="580" y="-1660"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="-1660"/>
+      <p2 x="680" y="-1660"/>
     </wire>
     <wire>
       <p1 x="-920" y="-640"/>
@@ -3935,12 +4430,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="680" y="640"/>
     </wire>
     <wire>
-      <p1 x="560" y="-2180"/>
-      <p2 x="620" y="-2180"/>
-    </wire>
-    <wire>
-      <p1 x="840" y="2180"/>
-      <p2 x="1840" y="2180"/>
+      <p1 x="-420" y="2180"/>
+      <p2 x="300" y="2180"/>
     </wire>
     <wire>
       <p1 x="-520" y="-1160"/>
@@ -3951,12 +4442,12 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1600" y="-1160"/>
     </wire>
     <wire>
-      <p1 x="760" y="1160"/>
-      <p2 x="780" y="1160"/>
+      <p1 x="1160" y="1160"/>
+      <p2 x="1200" y="1160"/>
     </wire>
     <wire>
-      <p1 x="-940" y="-140"/>
-      <p2 x="-760" y="-140"/>
+      <p1 x="760" y="1160"/>
+      <p2 x="780" y="1160"/>
     </wire>
     <wire>
       <p1 x="1020" y="-140"/>
@@ -3969,6 +4460,26 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="800" y="-140"/>
       <p2 x="980" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="-280" y="-140"/>
+      <p2 x="-240" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="-400" y="-140"/>
+      <p2 x="-380" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="-380" y="-140"/>
+      <p2 x="-320" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="-420" y="140"/>
+      <p2 x="-340" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="-280" y="140"/>
+      <p2 x="-180" y="140"/>
     </wire>
     <wire>
       <p1 x="1000" y="140"/>
@@ -3985,10 +4496,6 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="960" y="140"/>
       <p2 x="980" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="-620" y="140"/>
-      <p2 x="-340" y="140"/>
     </wire>
     <wire>
       <p1 x="-120" y="-1680"/>
@@ -4019,19 +4526,19 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="-660"/>
     </wire>
     <wire>
-      <p1 x="-20" y="660"/>
-      <p2 x="80" y="660"/>
+      <p1 x="-640" y="-660"/>
+      <p2 x="-360" y="-660"/>
     </wire>
     <wire>
       <p1 x="1560" y="660"/>
       <p2 x="1620" y="660"/>
     </wire>
     <wire>
-      <p1 x="800" y="2200"/>
-      <p2 x="1860" y="2200"/>
+      <p1 x="-440" y="2200"/>
+      <p2 x="260" y="2200"/>
     </wire>
     <wire>
-      <p1 x="-1100" y="-1180"/>
+      <p1 x="-640" y="-1180"/>
       <p2 x="-560" y="-1180"/>
     </wire>
     <wire>
@@ -4041,6 +4548,10 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="700" y="1180"/>
       <p2 x="740" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1360" y="1180"/>
+      <p2 x="1440" y="1180"/>
     </wire>
     <wire>
       <p1 x="1120" y="-160"/>
@@ -4055,6 +4566,14 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1220" y="-160"/>
     </wire>
     <wire>
+      <p1 x="-280" y="-160"/>
+      <p2 x="-180" y="-160"/>
+    </wire>
+    <wire>
+      <p1 x="-840" y="160"/>
+      <p2 x="-220" y="160"/>
+    </wire>
+    <wire>
       <p1 x="1120" y="160"/>
       <p2 x="1140" y="160"/>
     </wire>
@@ -4067,12 +4586,12 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1220" y="160"/>
     </wire>
     <wire>
-      <p1 x="-760" y="160"/>
-      <p2 x="-400" y="160"/>
-    </wire>
-    <wire>
       <p1 x="1080" y="-1700"/>
       <p2 x="1840" y="-1700"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="-1700"/>
+      <p2 x="680" y="-1700"/>
     </wire>
     <wire>
       <p1 x="1120" y="-680"/>
@@ -4091,36 +4610,24 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1080" y="-680"/>
     </wire>
     <wire>
-      <p1 x="-60" y="680"/>
-      <p2 x="60" y="680"/>
-    </wire>
-    <wire>
       <p1 x="1580" y="680"/>
       <p2 x="1620" y="680"/>
     </wire>
     <wire>
-      <p1 x="760" y="2220"/>
-      <p2 x="1880" y="2220"/>
+      <p1 x="-460" y="2220"/>
+      <p2 x="220" y="2220"/>
     </wire>
     <wire>
       <p1 x="-520" y="-1200"/>
       <p2 x="-480" y="-1200"/>
     </wire>
     <wire>
+      <p1 x="1320" y="1200"/>
+      <p2 x="1340" y="1200"/>
+    </wire>
+    <wire>
       <p1 x="720" y="1200"/>
       <p2 x="780" y="1200"/>
-    </wire>
-    <wire>
-      <p1 x="-600" y="-180"/>
-      <p2 x="-340" y="-180"/>
-    </wire>
-    <wire>
-      <p1 x="-940" y="-180"/>
-      <p2 x="-820" y="-180"/>
-    </wire>
-    <wire>
-      <p1 x="-740" y="-180"/>
-      <p2 x="-700" y="-180"/>
     </wire>
     <wire>
       <p1 x="1000" y="-180"/>
@@ -4139,6 +4646,14 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="-180"/>
     </wire>
     <wire>
+      <p1 x="-280" y="-180"/>
+      <p2 x="-200" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="180"/>
+      <p2 x="-140" y="180"/>
+    </wire>
+    <wire>
       <p1 x="1020" y="180"/>
       <p2 x="1100" y="180"/>
     </wire>
@@ -4155,6 +4670,10 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1860" y="-1720"/>
     </wire>
     <wire>
+      <p1 x="700" y="-1720"/>
+      <p2 x="760" y="-1720"/>
+    </wire>
+    <wire>
       <p1 x="620" y="-700"/>
       <p2 x="980" y="-700"/>
     </wire>
@@ -4167,16 +4686,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1540" y="-700"/>
     </wire>
     <wire>
-      <p1 x="40" y="700"/>
-      <p2 x="140" y="700"/>
-    </wire>
-    <wire>
-      <p1 x="-100" y="700"/>
-      <p2 x="20" y="700"/>
-    </wire>
-    <wire>
-      <p1 x="720" y="2240"/>
-      <p2 x="1900" y="2240"/>
+      <p1 x="-480" y="2240"/>
+      <p2 x="180" y="2240"/>
     </wire>
     <wire>
       <p1 x="1200" y="-1220"/>
@@ -4199,16 +4710,12 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-140" y="-1220"/>
     </wire>
     <wire>
-      <p1 x="-660" y="-200"/>
-      <p2 x="-360" y="-200"/>
+      <p1 x="-320" y="-200"/>
+      <p2 x="-300" y="-200"/>
     </wire>
     <wire>
-      <p1 x="-300" y="-200"/>
-      <p2 x="-140" y="-200"/>
-    </wire>
-    <wire>
-      <p1 x="-800" y="-200"/>
-      <p2 x="-760" y="-200"/>
+      <p1 x="-600" y="-200"/>
+      <p2 x="-380" y="-200"/>
     </wire>
     <wire>
       <p1 x="1120" y="-200"/>
@@ -4223,6 +4730,14 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1200" y="-200"/>
     </wire>
     <wire>
+      <p1 x="-280" y="-200"/>
+      <p2 x="-220" y="-200"/>
+    </wire>
+    <wire>
+      <p1 x="-900" y="200"/>
+      <p2 x="140" y="200"/>
+    </wire>
+    <wire>
       <p1 x="1120" y="200"/>
       <p2 x="1140" y="200"/>
     </wire>
@@ -4233,10 +4748,6 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="1180" y="200"/>
       <p2 x="1200" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="-140" y="1740"/>
-      <p2 x="880" y="1740"/>
     </wire>
     <wire>
       <p1 x="-320" y="-720"/>
@@ -4259,7 +4770,7 @@ implementing SLTI and SLTIU.</string>
       <p2 x="60" y="-720"/>
     </wire>
     <wire>
-      <p1 x="600" y="720"/>
+      <p1 x="640" y="720"/>
       <p2 x="1200" y="720"/>
     </wire>
     <wire>
@@ -4267,16 +4778,16 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1640" y="720"/>
     </wire>
     <wire>
-      <p1 x="680" y="2260"/>
-      <p2 x="1920" y="2260"/>
+      <p1 x="-500" y="2260"/>
+      <p2 x="140" y="2260"/>
     </wire>
     <wire>
       <p1 x="760" y="1240"/>
       <p2 x="780" y="1240"/>
     </wire>
     <wire>
-      <p1 x="-740" y="-220"/>
-      <p2 x="-380" y="-220"/>
+      <p1 x="-660" y="-220"/>
+      <p2 x="-400" y="-220"/>
     </wire>
     <wire>
       <p1 x="1020" y="-220"/>
@@ -4311,8 +4822,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-120" y="-1760"/>
     </wire>
     <wire>
-      <p1 x="-160" y="1760"/>
-      <p2 x="840" y="1760"/>
+      <p1 x="780" y="-1760"/>
+      <p2 x="800" y="-1760"/>
     </wire>
     <wire>
       <p1 x="-320" y="-740"/>
@@ -4339,12 +4850,20 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="-740"/>
     </wire>
     <wire>
-      <p1 x="600" y="740"/>
+      <p1 x="640" y="740"/>
       <p2 x="660" y="740"/>
     </wire>
     <wire>
-      <p1 x="640" y="2280"/>
-      <p2 x="1940" y="2280"/>
+      <p1 x="1880" y="740"/>
+      <p2 x="2020" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="-520" y="2280"/>
+      <p2 x="100" y="2280"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="2280"/>
+      <p2 x="1820" y="2280"/>
     </wire>
     <wire>
       <p1 x="-260" y="-1260"/>
@@ -4367,8 +4886,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="860" y="1260"/>
     </wire>
     <wire>
-      <p1 x="-800" y="-240"/>
-      <p2 x="-400" y="-240"/>
+      <p1 x="-740" y="-240"/>
+      <p2 x="-420" y="-240"/>
     </wire>
     <wire>
       <p1 x="1120" y="-240"/>
@@ -4395,8 +4914,20 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1220" y="240"/>
     </wire>
     <wire>
-      <p1 x="-180" y="1780"/>
-      <p2 x="800" y="1780"/>
+      <p1 x="640" y="-1780"/>
+      <p2 x="660" y="-1780"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="-1780"/>
+      <p2 x="800" y="-1780"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-1780"/>
+      <p2 x="620" y="-1780"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="1780"/>
+      <p2 x="100" y="1780"/>
     </wire>
     <wire>
       <p1 x="1120" y="-760"/>
@@ -4419,12 +4950,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="760" y="760"/>
     </wire>
     <wire>
-      <p1 x="-1040" y="2300"/>
-      <p2 x="360" y="2300"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="2300"/>
-      <p2 x="1960" y="2300"/>
+      <p1 x="820" y="2300"/>
+      <p2 x="1840" y="2300"/>
     </wire>
     <wire>
       <p1 x="-180" y="-1280"/>
@@ -4451,6 +4978,10 @@ implementing SLTI and SLTIU.</string>
       <p2 x="880" y="1280"/>
     </wire>
     <wire>
+      <p1 x="-800" y="-260"/>
+      <p2 x="-440" y="-260"/>
+    </wire>
+    <wire>
       <p1 x="1000" y="-260"/>
       <p2 x="1020" y="-260"/>
     </wire>
@@ -4467,6 +4998,14 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="-260"/>
     </wire>
     <wire>
+      <p1 x="-800" y="260"/>
+      <p2 x="-140" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="260"/>
+      <p2 x="0" y="260"/>
+    </wire>
+    <wire>
       <p1 x="1020" y="260"/>
       <p2 x="1100" y="260"/>
     </wire>
@@ -4479,8 +5018,12 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="260"/>
     </wire>
     <wire>
-      <p1 x="-200" y="1800"/>
-      <p2 x="760" y="1800"/>
+      <p1 x="760" y="-1800"/>
+      <p2 x="800" y="-1800"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="-1800"/>
+      <p2 x="880" y="-1800"/>
     </wire>
     <wire>
       <p1 x="1160" y="-780"/>
@@ -4491,20 +5034,20 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-420" y="-780"/>
     </wire>
     <wire>
-      <p1 x="600" y="780"/>
-      <p2 x="620" y="780"/>
+      <p1 x="-140" y="780"/>
+      <p2 x="60" y="780"/>
     </wire>
     <wire>
       <p1 x="680" y="780"/>
       <p2 x="800" y="780"/>
     </wire>
     <wire>
-      <p1 x="-1060" y="2320"/>
-      <p2 x="320" y="2320"/>
+      <p1 x="320" y="780"/>
+      <p2 x="660" y="780"/>
     </wire>
     <wire>
-      <p1 x="560" y="2320"/>
-      <p2 x="1980" y="2320"/>
+      <p1 x="780" y="2320"/>
+      <p2 x="1860" y="2320"/>
     </wire>
     <wire>
       <p1 x="820" y="-1300"/>
@@ -4539,6 +5082,14 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1200" y="-280"/>
     </wire>
     <wire>
+      <p1 x="-560" y="280"/>
+      <p2 x="-100" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="280"/>
+      <p2 x="20" y="280"/>
+    </wire>
+    <wire>
       <p1 x="1120" y="280"/>
       <p2 x="1140" y="280"/>
     </wire>
@@ -4549,14 +5100,6 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="1180" y="280"/>
       <p2 x="1200" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="-1040" y="280"/>
-      <p2 x="-220" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="-220" y="1820"/>
-      <p2 x="720" y="1820"/>
     </wire>
     <wire>
       <p1 x="-320" y="-800"/>
@@ -4575,24 +5118,24 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1220" y="-800"/>
     </wire>
     <wire>
+      <p1 x="40" y="800"/>
+      <p2 x="60" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="800"/>
+      <p2 x="140" y="800"/>
+    </wire>
+    <wire>
       <p1 x="440" y="800"/>
-      <p2 x="600" y="800"/>
+      <p2 x="500" y="800"/>
     </wire>
     <wire>
-      <p1 x="-60" y="800"/>
-      <p2 x="-20" y="800"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="800"/>
+      <p1 x="500" y="800"/>
       <p2 x="660" y="800"/>
     </wire>
     <wire>
-      <p1 x="-1080" y="2340"/>
-      <p2 x="280" y="2340"/>
-    </wire>
-    <wire>
-      <p1 x="520" y="2340"/>
-      <p2 x="2000" y="2340"/>
+      <p1 x="740" y="2340"/>
+      <p2 x="1880" y="2340"/>
     </wire>
     <wire>
       <p1 x="740" y="-1320"/>
@@ -4623,6 +5166,10 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="-300"/>
     </wire>
     <wire>
+      <p1 x="-620" y="300"/>
+      <p2 x="-340" y="300"/>
+    </wire>
+    <wire>
       <p1 x="1000" y="300"/>
       <p2 x="1020" y="300"/>
     </wire>
@@ -4637,10 +5184,6 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="960" y="300"/>
       <p2 x="980" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="-240" y="1840"/>
-      <p2 x="680" y="1840"/>
     </wire>
     <wire>
       <p1 x="-320" y="-820"/>
@@ -4659,10 +5202,6 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1580" y="-820"/>
     </wire>
     <wire>
-      <p1 x="-140" y="820"/>
-      <p2 x="-120" y="820"/>
-    </wire>
-    <wire>
       <p1 x="800" y="820"/>
       <p2 x="1880" y="820"/>
     </wire>
@@ -4671,12 +5210,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="740" y="820"/>
     </wire>
     <wire>
-      <p1 x="-1100" y="2360"/>
-      <p2 x="240" y="2360"/>
-    </wire>
-    <wire>
-      <p1 x="480" y="2360"/>
-      <p2 x="2020" y="2360"/>
+      <p1 x="700" y="2360"/>
+      <p2 x="1900" y="2360"/>
     </wire>
     <wire>
       <p1 x="-520" y="-1340"/>
@@ -4699,6 +5234,10 @@ implementing SLTI and SLTIU.</string>
       <p2 x="860" y="1340"/>
     </wire>
     <wire>
+      <p1 x="-1060" y="-320"/>
+      <p2 x="-340" y="-320"/>
+    </wire>
+    <wire>
       <p1 x="1120" y="-320"/>
       <p2 x="1140" y="-320"/>
     </wire>
@@ -4711,8 +5250,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1220" y="-320"/>
     </wire>
     <wire>
-      <p1 x="-200" y="320"/>
-      <p2 x="440" y="320"/>
+      <p1 x="-760" y="320"/>
+      <p2 x="-400" y="320"/>
     </wire>
     <wire>
       <p1 x="1120" y="320"/>
@@ -4727,8 +5266,12 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1220" y="320"/>
     </wire>
     <wire>
-      <p1 x="-260" y="1860"/>
-      <p2 x="640" y="1860"/>
+      <p1 x="700" y="-1860"/>
+      <p2 x="880" y="-1860"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-1860"/>
+      <p2 x="660" y="-1860"/>
     </wire>
     <wire>
       <p1 x="1120" y="-840"/>
@@ -4739,28 +5282,20 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1200" y="-840"/>
     </wire>
     <wire>
-      <p1 x="-60" y="840"/>
-      <p2 x="80" y="840"/>
-    </wire>
-    <wire>
       <p1 x="680" y="840"/>
-      <p2 x="700" y="840"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="840"/>
-      <p2 x="620" y="840"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="840"/>
       <p2 x="1900" y="840"/>
     </wire>
     <wire>
-      <p1 x="-1120" y="2380"/>
-      <p2 x="200" y="2380"/>
+      <p1 x="640" y="840"/>
+      <p2 x="660" y="840"/>
     </wire>
     <wire>
-      <p1 x="440" y="2380"/>
-      <p2 x="2040" y="2380"/>
+      <p1 x="520" y="840"/>
+      <p2 x="540" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="2380"/>
+      <p2 x="1920" y="2380"/>
     </wire>
     <wire>
       <p1 x="-120" y="-1360"/>
@@ -4807,10 +5342,6 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="340"/>
     </wire>
     <wire>
-      <p1 x="-280" y="1880"/>
-      <p2 x="600" y="1880"/>
-    </wire>
-    <wire>
       <p1 x="-600" y="-860"/>
       <p2 x="-520" y="-860"/>
     </wire>
@@ -4827,20 +5358,24 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1920" y="860"/>
     </wire>
     <wire>
-      <p1 x="-1140" y="2400"/>
-      <p2 x="160" y="2400"/>
+      <p1 x="520" y="860"/>
+      <p2 x="540" y="860"/>
     </wire>
     <wire>
-      <p1 x="400" y="2400"/>
-      <p2 x="2060" y="2400"/>
+      <p1 x="540" y="860"/>
+      <p2 x="620" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="2400"/>
+      <p2 x="1940" y="2400"/>
+    </wire>
+    <wire>
+      <p1 x="-1100" y="-1380"/>
+      <p2 x="-80" y="-1380"/>
     </wire>
     <wire>
       <p1 x="-60" y="-1380"/>
       <p2 x="-40" y="-1380"/>
-    </wire>
-    <wire>
-      <p1 x="-820" y="-1380"/>
-      <p2 x="-80" y="-1380"/>
     </wire>
     <wire>
       <p1 x="740" y="1380"/>
@@ -4875,8 +5410,12 @@ implementing SLTI and SLTIU.</string>
       <p2 x="320" y="-1900"/>
     </wire>
     <wire>
-      <p1 x="-300" y="1900"/>
-      <p2 x="560" y="1900"/>
+      <p1 x="680" y="-1900"/>
+      <p2 x="1880" y="-1900"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="1900"/>
+      <p2 x="860" y="1900"/>
     </wire>
     <wire>
       <p1 x="-320" y="-880"/>
@@ -4891,12 +5430,24 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1940" y="880"/>
     </wire>
     <wire>
+      <p1 x="580" y="880"/>
+      <p2 x="620" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="2420"/>
+      <p2 x="1960" y="2420"/>
+    </wire>
+    <wire>
       <p1 x="760" y="1400"/>
       <p2 x="780" y="1400"/>
     </wire>
     <wire>
       <p1 x="840" y="1400"/>
       <p2 x="980" y="1400"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="1400"/>
+      <p2 x="120" y="1400"/>
     </wire>
     <wire>
       <p1 x="860" y="-380"/>
@@ -4927,8 +5478,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1620" y="380"/>
     </wire>
     <wire>
-      <p1 x="-320" y="1920"/>
-      <p2 x="520" y="1920"/>
+      <p1 x="-160" y="1920"/>
+      <p2 x="820" y="1920"/>
     </wire>
     <wire>
       <p1 x="-320" y="-900"/>
@@ -4947,6 +5498,10 @@ implementing SLTI and SLTIU.</string>
       <p2 x="940" y="-900"/>
     </wire>
     <wire>
+      <p1 x="-20" y="900"/>
+      <p2 x="80" y="900"/>
+    </wire>
+    <wire>
       <p1 x="1100" y="900"/>
       <p2 x="1120" y="900"/>
     </wire>
@@ -4955,12 +5510,20 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1960" y="900"/>
     </wire>
     <wire>
+      <p1 x="540" y="2440"/>
+      <p2 x="1980" y="2440"/>
+    </wire>
+    <wire>
       <p1 x="740" y="1420"/>
       <p2 x="780" y="1420"/>
     </wire>
     <wire>
       <p1 x="840" y="1420"/>
       <p2 x="1160" y="1420"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="1420"/>
+      <p2 x="440" y="1420"/>
     </wire>
     <wire>
       <p1 x="120" y="-400"/>
@@ -4995,16 +5558,16 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1220" y="400"/>
     </wire>
     <wire>
-      <p1 x="-340" y="400"/>
-      <p2 x="540" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="-340" y="1940"/>
-      <p2 x="480" y="1940"/>
+      <p1 x="-180" y="1940"/>
+      <p2 x="780" y="1940"/>
     </wire>
     <wire>
       <p1 x="1520" y="-920"/>
       <p2 x="1600" y="-920"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="920"/>
+      <p2 x="60" y="920"/>
     </wire>
     <wire>
       <p1 x="840" y="920"/>
@@ -5019,12 +5582,36 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1980" y="920"/>
     </wire>
     <wire>
+      <p1 x="560" y="920"/>
+      <p2 x="580" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="920"/>
+      <p2 x="620" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="-1060" y="2460"/>
+      <p2 x="140" y="2460"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="2460"/>
+      <p2 x="2000" y="2460"/>
+    </wire>
+    <wire>
       <p1 x="320" y="-1440"/>
       <p2 x="1020" y="-1440"/>
     </wire>
     <wire>
       <p1 x="700" y="1440"/>
       <p2 x="780" y="1440"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="1440"/>
+      <p2 x="380" y="1440"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="-420"/>
+      <p2 x="20" y="-420"/>
     </wire>
     <wire>
       <p1 x="1000" y="-420"/>
@@ -5047,10 +5634,6 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="-420"/>
     </wire>
     <wire>
-      <p1 x="-60" y="-420"/>
-      <p2 x="20" y="-420"/>
-    </wire>
-    <wire>
       <p1 x="20" y="-420"/>
       <p2 x="40" y="-420"/>
     </wire>
@@ -5071,12 +5654,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="420"/>
     </wire>
     <wire>
-      <p1 x="-400" y="420"/>
-      <p2 x="580" y="420"/>
-    </wire>
-    <wire>
-      <p1 x="-360" y="1960"/>
-      <p2 x="440" y="1960"/>
+      <p1 x="-200" y="1960"/>
+      <p2 x="740" y="1960"/>
     </wire>
     <wire>
       <p1 x="1500" y="-940"/>
@@ -5085,6 +5664,14 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="540" y="-940"/>
       <p2 x="1200" y="-940"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="940"/>
+      <p2 x="140" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="940"/>
+      <p2 x="20" y="940"/>
     </wire>
     <wire>
       <p1 x="1360" y="940"/>
@@ -5107,8 +5694,12 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1340" y="940"/>
     </wire>
     <wire>
-      <p1 x="380" y="1460"/>
-      <p2 x="1500" y="1460"/>
+      <p1 x="-1080" y="2480"/>
+      <p2 x="300" y="2480"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="2480"/>
+      <p2 x="2020" y="2480"/>
     </wire>
     <wire>
       <p1 x="-580" y="-440"/>
@@ -5131,28 +5722,28 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1200" y="-440"/>
     </wire>
     <wire>
-      <p1 x="-480" y="440"/>
-      <p2 x="600" y="440"/>
+      <p1 x="-1080" y="440"/>
+      <p2 x="-220" y="440"/>
     </wire>
     <wire>
       <p1 x="1340" y="440"/>
       <p2 x="1620" y="440"/>
     </wire>
     <wire>
-      <p1 x="-380" y="1980"/>
-      <p2 x="400" y="1980"/>
+      <p1 x="-220" y="1980"/>
+      <p2 x="700" y="1980"/>
     </wire>
     <wire>
       <p1 x="1480" y="-960"/>
       <p2 x="1600" y="-960"/>
     </wire>
     <wire>
-      <p1 x="900" y="960"/>
-      <p2 x="1080" y="960"/>
+      <p1 x="1460" y="960"/>
+      <p2 x="2040" y="960"/>
     </wire>
     <wire>
-      <p1 x="620" y="960"/>
-      <p2 x="700" y="960"/>
+      <p1 x="900" y="960"/>
+      <p2 x="1080" y="960"/>
     </wire>
     <wire>
       <p1 x="1180" y="960"/>
@@ -5165,6 +5756,18 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="700" y="960"/>
       <p2 x="780" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="-1100" y="2500"/>
+      <p2 x="260" y="2500"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="2500"/>
+      <p2 x="2040" y="2500"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="1480"/>
+      <p2 x="780" y="1480"/>
     </wire>
     <wire>
       <p1 x="-640" y="-460"/>
@@ -5199,8 +5802,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1620" y="460"/>
     </wire>
     <wire>
-      <p1 x="-400" y="2000"/>
-      <p2 x="360" y="2000"/>
+      <p1 x="-240" y="2000"/>
+      <p2 x="660" y="2000"/>
     </wire>
     <wire>
       <p1 x="200" y="-980"/>
@@ -5211,6 +5814,14 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1600" y="-980"/>
     </wire>
     <wire>
+      <p1 x="1480" y="980"/>
+      <p2 x="1500" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="1320" y="980"/>
+      <p2 x="1420" y="980"/>
+    </wire>
+    <wire>
       <p1 x="920" y="980"/>
       <p2 x="1080" y="980"/>
     </wire>
@@ -5219,12 +5830,28 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1280" y="980"/>
     </wire>
     <wire>
-      <p1 x="1320" y="980"/>
-      <p2 x="1340" y="980"/>
+      <p1 x="1520" y="980"/>
+      <p2 x="2080" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="1420" y="980"/>
+      <p2 x="1440" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="2520"/>
+      <p2 x="220" y="2520"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="2520"/>
+      <p2 x="2060" y="2520"/>
     </wire>
     <wire>
       <p1 x="540" y="-1500"/>
       <p2 x="860" y="-1500"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="1500"/>
+      <p2 x="1000" y="1500"/>
     </wire>
     <wire>
       <p1 x="-720" y="-480"/>
@@ -5247,6 +5874,10 @@ implementing SLTI and SLTIU.</string>
       <p2 x="720" y="-480"/>
     </wire>
     <wire>
+      <p1 x="-200" y="480"/>
+      <p2 x="440" y="480"/>
+    </wire>
+    <wire>
       <p1 x="1180" y="480"/>
       <p2 x="1200" y="480"/>
     </wire>
@@ -5259,12 +5890,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1620" y="480"/>
     </wire>
     <wire>
-      <p1 x="540" y="-2020"/>
-      <p2 x="760" y="-2020"/>
-    </wire>
-    <wire>
-      <p1 x="-420" y="2020"/>
-      <p2 x="320" y="2020"/>
+      <p1 x="-260" y="2020"/>
+      <p2 x="620" y="2020"/>
     </wire>
     <wire>
       <p1 x="1440" y="-1000"/>
@@ -5283,12 +5910,32 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1080" y="1000"/>
     </wire>
     <wire>
+      <p1 x="1260" y="1000"/>
+      <p2 x="1280" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1000"/>
+      <p2 x="1520" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="-1140" y="2540"/>
+      <p2 x="180" y="2540"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="2540"/>
+      <p2 x="2080" y="2540"/>
+    </wire>
+    <wire>
       <p1 x="700" y="-1520"/>
       <p2 x="720" y="-1520"/>
     </wire>
     <wire>
       <p1 x="800" y="-1520"/>
       <p2 x="860" y="-1520"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="1520"/>
+      <p2 x="780" y="1520"/>
     </wire>
     <wire>
       <p1 x="-480" y="-500"/>
@@ -5339,12 +5986,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1620" y="500"/>
     </wire>
     <wire>
-      <p1 x="200" y="-2040"/>
-      <p2 x="720" y="-2040"/>
-    </wire>
-    <wire>
-      <p1 x="-440" y="2040"/>
-      <p2 x="280" y="2040"/>
+      <p1 x="-280" y="2040"/>
+      <p2 x="580" y="2040"/>
     </wire>
     <wire>
       <p1 x="1420" y="-1020"/>
@@ -5359,24 +6002,32 @@ implementing SLTI and SLTIU.</string>
       <p2 x="880" y="1020"/>
     </wire>
     <wire>
+      <p1 x="1420" y="1020"/>
+      <p2 x="1440" y="1020"/>
+    </wire>
+    <wire>
       <p1 x="1280" y="-1160"/>
       <p2 x="1280" y="340"/>
     </wire>
     <wire>
       <p1 x="0" y="-460"/>
-      <p2 x="0" y="100"/>
+      <p2 x="0" y="260"/>
     </wire>
     <wire>
       <p1 x="-260" y="-1340"/>
       <p2 x="-260" y="-1260"/>
     </wire>
     <wire>
-      <p1 x="-260" y="-80"/>
-      <p2 x="-260" y="-20"/>
+      <p1 x="-260" y="1120"/>
+      <p2 x="-260" y="2020"/>
     </wire>
     <wire>
-      <p1 x="-260" y="880"/>
-      <p2 x="-260" y="1860"/>
+      <p1 x="-260" y="-60"/>
+      <p2 x="-260" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-100"/>
+      <p2 x="-260" y="-80"/>
     </wire>
     <wire>
       <p1 x="1540" y="-900"/>
@@ -5391,12 +6042,28 @@ implementing SLTI and SLTIU.</string>
       <p2 x="260" y="-1620"/>
     </wire>
     <wire>
+      <p1 x="260" y="1740"/>
+      <p2 x="260" y="2200"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="2200"/>
+      <p2 x="260" y="2500"/>
+    </wire>
+    <wire>
       <p1 x="260" y="-1620"/>
+      <p2 x="260" y="-1560"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="-1560"/>
       <p2 x="260" y="-1340"/>
     </wire>
     <wire>
       <p1 x="260" y="-1340"/>
-      <p2 x="260" y="1480"/>
+      <p2 x="260" y="1600"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1600"/>
+      <p2 x="260" y="1660"/>
     </wire>
     <wire>
       <p1 x="-520" y="-860"/>
@@ -5407,40 +6074,44 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-520" y="-1260"/>
     </wire>
     <wire>
-      <p1 x="-520" y="880"/>
-      <p2 x="-520" y="1060"/>
-    </wire>
-    <wire>
-      <p1 x="520" y="1580"/>
-      <p2 x="520" y="1920"/>
-    </wire>
-    <wire>
-      <p1 x="520" y="1920"/>
-      <p2 x="520" y="2340"/>
+      <p1 x="-520" y="1120"/>
+      <p2 x="-520" y="2280"/>
     </wire>
     <wire>
       <p1 x="-780" y="-520"/>
       <p2 x="-780" y="-420"/>
     </wire>
     <wire>
-      <p1 x="-780" y="-160"/>
-      <p2 x="-780" y="-80"/>
+      <p1 x="-780" y="0"/>
+      <p2 x="-780" y="100"/>
     </wire>
     <wire>
       <p1 x="2060" y="760"/>
-      <p2 x="2060" y="2400"/>
+      <p2 x="2060" y="2520"/>
     </wire>
     <wire>
       <p1 x="780" y="-540"/>
       <p2 x="780" y="-60"/>
     </wire>
     <wire>
-      <p1 x="-1040" y="280"/>
-      <p2 x="-1040" y="2300"/>
+      <p1 x="780" y="1740"/>
+      <p2 x="780" y="1940"/>
     </wire>
     <wire>
-      <p1 x="-20" y="120"/>
-      <p2 x="-20" y="660"/>
+      <p1 x="780" y="-1760"/>
+      <p2 x="780" y="-1740"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="1940"/>
+      <p2 x="780" y="2320"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="1400"/>
+      <p2 x="-20" y="1780"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="280"/>
+      <p2 x="-20" y="900"/>
     </wire>
     <wire>
       <p1 x="-20" y="-1080"/>
@@ -5456,19 +6127,19 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="20" y="-420"/>
-      <p2 x="20" y="120"/>
+      <p2 x="20" y="280"/>
     </wire>
     <wire>
-      <p1 x="20" y="700"/>
-      <p2 x="20" y="740"/>
+      <p1 x="20" y="940"/>
+      <p2 x="20" y="980"/>
     </wire>
     <wire>
-      <p1 x="-280" y="-100"/>
-      <p2 x="-280" y="-60"/>
+      <p1 x="-280" y="1120"/>
+      <p2 x="-280" y="2040"/>
     </wire>
     <wire>
-      <p1 x="-280" y="880"/>
-      <p2 x="-280" y="1880"/>
+      <p1 x="-280" y="20"/>
+      <p2 x="-280" y="80"/>
     </wire>
     <wire>
       <p1 x="1560" y="-880"/>
@@ -5479,28 +6150,28 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1560" y="660"/>
     </wire>
     <wire>
-      <p1 x="280" y="1580"/>
-      <p2 x="280" y="2040"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="2040"/>
-      <p2 x="280" y="2340"/>
-    </wire>
-    <wire>
-      <p1 x="-540" y="880"/>
-      <p2 x="-540" y="1060"/>
+      <p1 x="-540" y="1120"/>
+      <p2 x="-540" y="1300"/>
     </wire>
     <wire>
       <p1 x="-540" y="-1160"/>
       <p2 x="-540" y="-1100"/>
     </wire>
     <wire>
-      <p1 x="540" y="-940"/>
-      <p2 x="540" y="400"/>
+      <p1 x="540" y="-2060"/>
+      <p2 x="540" y="-1500"/>
     </wire>
     <wire>
-      <p1 x="540" y="-2020"/>
-      <p2 x="540" y="-1500"/>
+      <p1 x="540" y="1740"/>
+      <p2 x="540" y="2060"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="860"/>
+      <p2 x="540" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="2060"/>
+      <p2 x="540" y="2440"/>
     </wire>
     <wire>
       <p1 x="540" y="-1500"/>
@@ -5508,15 +6179,15 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="1820" y="-1680"/>
-      <p2 x="1820" y="2160"/>
+      <p2 x="1820" y="2280"/>
     </wire>
     <wire>
       <p1 x="-800" y="-380"/>
-      <p2 x="-800" y="-240"/>
+      <p2 x="-800" y="-260"/>
     </wire>
     <wire>
-      <p1 x="-800" y="-20"/>
-      <p2 x="-800" y="100"/>
+      <p1 x="-800" y="140"/>
+      <p2 x="-800" y="260"/>
     </wire>
     <wire>
       <p1 x="800" y="-560"/>
@@ -5527,20 +6198,16 @@ implementing SLTI and SLTIU.</string>
       <p2 x="800" y="-1400"/>
     </wire>
     <wire>
-      <p1 x="800" y="1580"/>
-      <p2 x="800" y="1780"/>
-    </wire>
-    <wire>
       <p1 x="800" y="780"/>
       <p2 x="800" y="820"/>
     </wire>
     <wire>
-      <p1 x="800" y="1780"/>
-      <p2 x="800" y="2200"/>
+      <p1 x="2080" y="980"/>
+      <p2 x="2080" y="2540"/>
     </wire>
     <wire>
-      <p1 x="-1060" y="-1080"/>
-      <p2 x="-1060" y="2320"/>
+      <p1 x="-1060" y="-320"/>
+      <p2 x="-1060" y="2460"/>
     </wire>
     <wire>
       <p1 x="-40" y="-1020"/>
@@ -5559,36 +6226,44 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1320" y="420"/>
     </wire>
     <wire>
-      <p1 x="1320" y="1040"/>
-      <p2 x="1320" y="1080"/>
+      <p1 x="1320" y="1120"/>
+      <p2 x="1320" y="1200"/>
     </wire>
     <wire>
-      <p1 x="40" y="700"/>
-      <p2 x="40" y="740"/>
+      <p1 x="40" y="940"/>
+      <p2 x="40" y="980"/>
     </wire>
     <wire>
       <p1 x="40" y="-460"/>
       <p2 x="40" y="-420"/>
     </wire>
     <wire>
-      <p1 x="-300" y="-200"/>
-      <p2 x="-300" y="0"/>
+      <p1 x="-300" y="1120"/>
+      <p2 x="-300" y="2060"/>
     </wire>
     <wire>
-      <p1 x="-300" y="880"/>
-      <p2 x="-300" y="1900"/>
+      <p1 x="-300" y="0"/>
+      <p2 x="-300" y="40"/>
     </wire>
     <wire>
       <p1 x="1580" y="-820"/>
       <p2 x="1580" y="680"/>
     </wire>
     <wire>
-      <p1 x="-560" y="880"/>
-      <p2 x="-560" y="1060"/>
+      <p1 x="300" y="1740"/>
+      <p2 x="300" y="2180"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="2180"/>
+      <p2 x="300" y="2480"/>
+    </wire>
+    <wire>
+      <p1 x="-560" y="1120"/>
+      <p2 x="-560" y="1300"/>
     </wire>
     <wire>
       <p1 x="-560" y="-380"/>
-      <p2 x="-560" y="120"/>
+      <p2 x="-560" y="280"/>
     </wire>
     <wire>
       <p1 x="-560" y="-500"/>
@@ -5596,23 +6271,15 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="1840" y="-1700"/>
-      <p2 x="1840" y="2180"/>
+      <p2 x="1840" y="2300"/>
     </wire>
     <wire>
-      <p1 x="560" y="1580"/>
-      <p2 x="560" y="1900"/>
+      <p1 x="560" y="-1660"/>
+      <p2 x="560" y="-1560"/>
     </wire>
     <wire>
-      <p1 x="560" y="1900"/>
-      <p2 x="560" y="2320"/>
-    </wire>
-    <wire>
-      <p1 x="-820" y="-1380"/>
-      <p2 x="-820" y="-1080"/>
-    </wire>
-    <wire>
-      <p1 x="-820" y="-160"/>
-      <p2 x="-820" y="-60"/>
+      <p1 x="-820" y="0"/>
+      <p2 x="-820" y="100"/>
     </wire>
     <wire>
       <p1 x="820" y="-1320"/>
@@ -5623,8 +6290,16 @@ implementing SLTI and SLTIU.</string>
       <p2 x="820" y="-220"/>
     </wire>
     <wire>
-      <p1 x="-1080" y="-1120"/>
-      <p2 x="-1080" y="2340"/>
+      <p1 x="820" y="1740"/>
+      <p2 x="820" y="1920"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="1920"/>
+      <p2 x="820" y="2300"/>
+    </wire>
+    <wire>
+      <p1 x="-1080" y="440"/>
+      <p2 x="-1080" y="2480"/>
     </wire>
     <wire>
       <p1 x="1080" y="-760"/>
@@ -5695,12 +6370,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-60" y="-420"/>
     </wire>
     <wire>
-      <p1 x="-60" y="100"/>
-      <p2 x="-60" y="680"/>
-    </wire>
-    <wire>
-      <p1 x="1340" y="1060"/>
-      <p2 x="1340" y="1080"/>
+      <p1 x="-60" y="260"/>
+      <p2 x="-60" y="920"/>
     </wire>
     <wire>
       <p1 x="1340" y="-1100"/>
@@ -5711,36 +6382,36 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1340" y="440"/>
     </wire>
     <wire>
-      <p1 x="1340" y="980"/>
-      <p2 x="1340" y="1040"/>
-    </wire>
-    <wire>
-      <p1 x="1340" y="1080"/>
-      <p2 x="1340" y="1100"/>
+      <p1 x="1340" y="1160"/>
+      <p2 x="1340" y="1180"/>
     </wire>
     <wire>
       <p1 x="60" y="-720"/>
       <p2 x="60" y="-560"/>
     </wire>
     <wire>
-      <p1 x="60" y="680"/>
-      <p2 x="60" y="740"/>
+      <p1 x="60" y="920"/>
+      <p2 x="60" y="980"/>
     </wire>
     <wire>
       <p1 x="60" y="-560"/>
       <p2 x="60" y="-460"/>
     </wire>
     <wire>
-      <p1 x="-320" y="880"/>
-      <p2 x="-320" y="1920"/>
+      <p1 x="-320" y="-20"/>
+      <p2 x="-320" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-320" y="1120"/>
+      <p2 x="-320" y="2080"/>
     </wire>
     <wire>
       <p1 x="-320" y="-1280"/>
       <p2 x="-320" y="-1140"/>
     </wire>
     <wire>
-      <p1 x="320" y="1580"/>
-      <p2 x="320" y="2020"/>
+      <p1 x="-320" y="-200"/>
+      <p2 x="-320" y="-140"/>
     </wire>
     <wire>
       <p1 x="320" y="-2180"/>
@@ -5748,19 +6419,23 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="320" y="-1440"/>
-      <p2 x="320" y="1480"/>
+      <p2 x="320" y="780"/>
     </wire>
     <wire>
-      <p1 x="320" y="2020"/>
-      <p2 x="320" y="2320"/>
+      <p1 x="320" y="780"/>
+      <p2 x="320" y="1660"/>
     </wire>
     <wire>
       <p1 x="320" y="-1900"/>
+      <p2 x="320" y="-1780"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-1780"/>
       <p2 x="320" y="-1440"/>
     </wire>
     <wire>
-      <p1 x="-580" y="880"/>
-      <p2 x="-580" y="1060"/>
+      <p1 x="-580" y="1120"/>
+      <p2 x="-580" y="1300"/>
     </wire>
     <wire>
       <p1 x="-580" y="-440"/>
@@ -5772,31 +6447,39 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="1860" y="-1720"/>
-      <p2 x="1860" y="2200"/>
+      <p2 x="1860" y="2320"/>
     </wire>
     <wire>
-      <p1 x="580" y="420"/>
-      <p2 x="580" y="540"/>
+      <p1 x="580" y="540"/>
+      <p2 x="580" y="580"/>
     </wire>
     <wire>
-      <p1 x="-840" y="-20"/>
-      <p2 x="-840" y="0"/>
+      <p1 x="580" y="1740"/>
+      <p2 x="580" y="2040"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="880"/>
+      <p2 x="580" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-1620"/>
+      <p2 x="580" y="-1560"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="2040"/>
+      <p2 x="580" y="2420"/>
+    </wire>
+    <wire>
+      <p1 x="-840" y="140"/>
+      <p2 x="-840" y="160"/>
     </wire>
     <wire>
       <p1 x="840" y="-600"/>
       <p2 x="840" y="-300"/>
     </wire>
     <wire>
-      <p1 x="840" y="1580"/>
-      <p2 x="840" y="1760"/>
-    </wire>
-    <wire>
-      <p1 x="840" y="1760"/>
-      <p2 x="840" y="2180"/>
-    </wire>
-    <wire>
-      <p1 x="-1100" y="-1180"/>
-      <p2 x="-1100" y="2360"/>
+      <p1 x="-1100" y="-1380"/>
+      <p2 x="-1100" y="2500"/>
     </wire>
     <wire>
       <p1 x="1100" y="-1680"/>
@@ -5887,28 +6570,24 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1360" y="460"/>
     </wire>
     <wire>
-      <p1 x="80" y="760"/>
-      <p2 x="80" y="840"/>
+      <p1 x="80" y="1000"/>
+      <p2 x="80" y="1080"/>
     </wire>
     <wire>
-      <p1 x="80" y="660"/>
-      <p2 x="80" y="740"/>
+      <p1 x="80" y="900"/>
+      <p2 x="80" y="980"/>
     </wire>
     <wire>
-      <p1 x="-340" y="880"/>
-      <p2 x="-340" y="1940"/>
+      <p1 x="-340" y="300"/>
+      <p2 x="-340" y="560"/>
     </wire>
     <wire>
-      <p1 x="-340" y="140"/>
-      <p2 x="-340" y="400"/>
+      <p1 x="-340" y="1120"/>
+      <p2 x="-340" y="2100"/>
     </wire>
     <wire>
-      <p1 x="-340" y="-180"/>
-      <p2 x="-340" y="-160"/>
-    </wire>
-    <wire>
-      <p1 x="-340" y="-140"/>
-      <p2 x="-340" y="-120"/>
+      <p1 x="-340" y="-320"/>
+      <p2 x="-340" y="-100"/>
     </wire>
     <wire>
       <p1 x="1620" y="-1180"/>
@@ -5919,12 +6598,20 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1620" y="-1200"/>
     </wire>
     <wire>
-      <p1 x="-600" y="880"/>
-      <p2 x="-600" y="1060"/>
+      <p1 x="340" y="1740"/>
+      <p2 x="340" y="2160"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="2160"/>
+      <p2 x="340" y="2540"/>
+    </wire>
+    <wire>
+      <p1 x="-600" y="1120"/>
+      <p2 x="-600" y="1300"/>
     </wire>
     <wire>
       <p1 x="-600" y="-380"/>
-      <p2 x="-600" y="-180"/>
+      <p2 x="-600" y="-200"/>
     </wire>
     <wire>
       <p1 x="-600" y="-1000"/>
@@ -5932,39 +6619,15 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="1880" y="820"/>
-      <p2 x="1880" y="2220"/>
+      <p2 x="1880" y="2340"/>
     </wire>
     <wire>
-      <p1 x="600" y="-360"/>
-      <p2 x="600" y="440"/>
+      <p1 x="1880" y="-1900"/>
+      <p2 x="1880" y="740"/>
     </wire>
     <wire>
       <p1 x="600" y="-420"/>
       <p2 x="600" y="-380"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="-2140"/>
-      <p2 x="600" y="-2080"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="1580"/>
-      <p2 x="600" y="1880"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="720"/>
-      <p2 x="600" y="740"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="800"/>
-      <p2 x="600" y="840"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="1880"/>
-      <p2 x="600" y="2300"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="740"/>
-      <p2 x="600" y="780"/>
     </wire>
     <wire>
       <p1 x="860" y="-620"/>
@@ -5979,8 +6642,16 @@ implementing SLTI and SLTIU.</string>
       <p2 x="860" y="1340"/>
     </wire>
     <wire>
+      <p1 x="860" y="1740"/>
+      <p2 x="860" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="1900"/>
+      <p2 x="860" y="2280"/>
+    </wire>
+    <wire>
       <p1 x="-1120" y="-1580"/>
-      <p2 x="-1120" y="2380"/>
+      <p2 x="-1120" y="2520"/>
     </wire>
     <wire>
       <p1 x="1120" y="-760"/>
@@ -6119,12 +6790,28 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-100" y="-360"/>
     </wire>
     <wire>
-      <p1 x="-100" y="120"/>
-      <p2 x="-100" y="700"/>
+      <p1 x="-100" y="280"/>
+      <p2 x="-100" y="940"/>
     </wire>
     <wire>
       <p1 x="-100" y="-1900"/>
       <p2 x="-100" y="-1820"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="1740"/>
+      <p2 x="100" y="1780"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="1420"/>
+      <p2 x="100" y="1440"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="1780"/>
+      <p2 x="100" y="2280"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="2280"/>
+      <p2 x="100" y="2420"/>
     </wire>
     <wire>
       <p1 x="1380" y="-1060"/>
@@ -6139,36 +6826,28 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1380" y="760"/>
     </wire>
     <wire>
-      <p1 x="-360" y="880"/>
-      <p2 x="-360" y="1960"/>
-    </wire>
-    <wire>
-      <p1 x="-360" y="-200"/>
-      <p2 x="-360" y="-160"/>
+      <p1 x="-360" y="1120"/>
+      <p2 x="-360" y="2120"/>
     </wire>
     <wire>
       <p1 x="-360" y="-1300"/>
       <p2 x="-360" y="-1280"/>
     </wire>
     <wire>
+      <p1 x="-360" y="-660"/>
+      <p2 x="-360" y="-80"/>
+    </wire>
+    <wire>
       <p1 x="1640" y="680"/>
       <p2 x="1640" y="700"/>
     </wire>
     <wire>
-      <p1 x="360" y="1580"/>
-      <p2 x="360" y="2000"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="2000"/>
-      <p2 x="360" y="2300"/>
-    </wire>
-    <wire>
-      <p1 x="-620" y="880"/>
-      <p2 x="-620" y="1060"/>
+      <p1 x="-620" y="1120"/>
+      <p2 x="-620" y="1300"/>
     </wire>
     <wire>
       <p1 x="-620" y="-380"/>
-      <p2 x="-620" y="140"/>
+      <p2 x="-620" y="300"/>
     </wire>
     <wire>
       <p1 x="-620" y="-500"/>
@@ -6176,7 +6855,19 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="1900" y="840"/>
-      <p2 x="1900" y="2240"/>
+      <p2 x="1900" y="2360"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1740"/>
+      <p2 x="620" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="900"/>
+      <p2 x="620" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="2020"/>
+      <p2 x="620" y="2400"/>
     </wire>
     <wire>
       <p1 x="880" y="940"/>
@@ -6187,20 +6878,16 @@ implementing SLTI and SLTIU.</string>
       <p2 x="880" y="-460"/>
     </wire>
     <wire>
-      <p1 x="880" y="1580"/>
-      <p2 x="880" y="1740"/>
-    </wire>
-    <wire>
       <p1 x="880" y="1340"/>
       <p2 x="880" y="1380"/>
     </wire>
     <wire>
-      <p1 x="880" y="1740"/>
-      <p2 x="880" y="2160"/>
+      <p1 x="880" y="-1860"/>
+      <p2 x="880" y="-1800"/>
     </wire>
     <wire>
       <p1 x="-1140" y="-1620"/>
-      <p2 x="-1140" y="2400"/>
+      <p2 x="-1140" y="2540"/>
     </wire>
     <wire>
       <p1 x="1140" y="940"/>
@@ -6208,7 +6895,11 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="1140" y="1000"/>
-      <p2 x="1140" y="1020"/>
+      <p2 x="1140" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="1080"/>
+      <p2 x="1140" y="1120"/>
     </wire>
     <wire>
       <p1 x="-120" y="-1360"/>
@@ -6216,7 +6907,7 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="-120" y="-320"/>
-      <p2 x="-120" y="-200"/>
+      <p2 x="-120" y="-80"/>
     </wire>
     <wire>
       <p1 x="-120" y="-500"/>
@@ -6227,16 +6918,16 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-120" y="-1600"/>
     </wire>
     <wire>
-      <p1 x="-120" y="-180"/>
-      <p2 x="-120" y="-160"/>
+      <p1 x="-120" y="-60"/>
+      <p2 x="-120" y="-40"/>
     </wire>
     <wire>
       <p1 x="-120" y="-1800"/>
       <p2 x="-120" y="-1760"/>
     </wire>
     <wire>
-      <p1 x="1400" y="1040"/>
-      <p2 x="1400" y="1060"/>
+      <p1 x="-120" y="20"/>
+      <p2 x="-120" y="80"/>
     </wire>
     <wire>
       <p1 x="1400" y="-1040"/>
@@ -6251,28 +6942,48 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1400" y="720"/>
     </wire>
     <wire>
-      <p1 x="-380" y="880"/>
-      <p2 x="-380" y="1980"/>
+      <p1 x="-380" y="-200"/>
+      <p2 x="-380" y="-180"/>
     </wire>
     <wire>
-      <p1 x="-380" y="-220"/>
-      <p2 x="-380" y="-160"/>
+      <p1 x="-380" y="1120"/>
+      <p2 x="-380" y="2140"/>
+    </wire>
+    <wire>
+      <p1 x="-380" y="-160"/>
+      <p2 x="-380" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="1740"/>
+      <p2 x="380" y="2140"/>
     </wire>
     <wire>
       <p1 x="380" y="-2180"/>
-      <p2 x="380" y="-900"/>
+      <p2 x="380" y="-1860"/>
     </wire>
     <wire>
       <p1 x="380" y="-900"/>
-      <p2 x="380" y="1460"/>
+      <p2 x="380" y="1440"/>
     </wire>
     <wire>
-      <p1 x="380" y="1460"/>
-      <p2 x="380" y="1480"/>
+      <p1 x="380" y="1440"/>
+      <p2 x="380" y="1620"/>
     </wire>
     <wire>
-      <p1 x="-640" y="880"/>
-      <p2 x="-640" y="1060"/>
+      <p1 x="380" y="1620"/>
+      <p2 x="380" y="1660"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="2140"/>
+      <p2 x="380" y="2520"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-1860"/>
+      <p2 x="380" y="-900"/>
+    </wire>
+    <wire>
+      <p1 x="-640" y="1120"/>
+      <p2 x="-640" y="1300"/>
     </wire>
     <wire>
       <p1 x="-640" y="-1000"/>
@@ -6283,20 +6994,24 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-640" y="-420"/>
     </wire>
     <wire>
+      <p1 x="-640" y="-800"/>
+      <p2 x="-640" y="-660"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="720"/>
+      <p2 x="640" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="840"/>
+      <p2 x="640" y="860"/>
+    </wire>
+    <wire>
       <p1 x="1920" y="860"/>
-      <p2 x="1920" y="2260"/>
+      <p2 x="1920" y="2380"/>
     </wire>
     <wire>
-      <p1 x="640" y="1580"/>
-      <p2 x="640" y="1860"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1860"/>
-      <p2 x="640" y="2280"/>
-    </wire>
-    <wire>
-      <p1 x="-900" y="-40"/>
-      <p2 x="-900" y="40"/>
+      <p1 x="-900" y="120"/>
+      <p2 x="-900" y="200"/>
     </wire>
     <wire>
       <p1 x="900" y="960"/>
@@ -6307,7 +7022,7 @@ implementing SLTI and SLTIU.</string>
       <p2 x="900" y="-540"/>
     </wire>
     <wire>
-      <p1 x="1160" y="1100"/>
+      <p1 x="1160" y="1160"/>
       <p2 x="1160" y="1420"/>
     </wire>
     <wire>
@@ -6323,32 +7038,48 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-140" y="-460"/>
     </wire>
     <wire>
-      <p1 x="-140" y="100"/>
-      <p2 x="-140" y="540"/>
+      <p1 x="-140" y="260"/>
+      <p2 x="-140" y="780"/>
     </wire>
     <wire>
       <p1 x="-140" y="-1640"/>
       <p2 x="-140" y="-1540"/>
     </wire>
     <wire>
-      <p1 x="-140" y="820"/>
-      <p2 x="-140" y="860"/>
+      <p1 x="-140" y="1060"/>
+      <p2 x="-140" y="1100"/>
     </wire>
     <wire>
-      <p1 x="-140" y="880"/>
-      <p2 x="-140" y="1740"/>
+      <p1 x="-140" y="1120"/>
+      <p2 x="-140" y="1900"/>
     </wire>
     <wire>
-      <p1 x="-140" y="540"/>
-      <p2 x="-140" y="660"/>
+      <p1 x="-140" y="0"/>
+      <p2 x="-140" y="80"/>
     </wire>
     <wire>
-      <p1 x="140" y="560"/>
-      <p2 x="140" y="700"/>
+      <p1 x="-140" y="160"/>
+      <p2 x="-140" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="780"/>
+      <p2 x="-140" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="1740"/>
+      <p2 x="140" y="2260"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="800"/>
+      <p2 x="140" y="940"/>
     </wire>
     <wire>
       <p1 x="140" y="-640"/>
       <p2 x="140" y="-400"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="2260"/>
+      <p2 x="140" y="2460"/>
     </wire>
     <wire>
       <p1 x="140" y="-400"/>
@@ -6356,7 +7087,7 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="140" y="-340"/>
-      <p2 x="140" y="40"/>
+      <p2 x="140" y="200"/>
     </wire>
     <wire>
       <p1 x="1420" y="-1020"/>
@@ -6367,16 +7098,20 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1420" y="520"/>
     </wire>
     <wire>
-      <p1 x="-400" y="880"/>
-      <p2 x="-400" y="2000"/>
+      <p1 x="1420" y="980"/>
+      <p2 x="1420" y="1020"/>
     </wire>
     <wire>
-      <p1 x="-400" y="160"/>
-      <p2 x="-400" y="420"/>
+      <p1 x="-400" y="-140"/>
+      <p2 x="-400" y="-40"/>
     </wire>
     <wire>
-      <p1 x="-400" y="-240"/>
-      <p2 x="-400" y="-160"/>
+      <p1 x="-400" y="-220"/>
+      <p2 x="-400" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="-400" y="320"/>
+      <p2 x="-400" y="580"/>
     </wire>
     <wire>
       <p1 x="-400" y="-840"/>
@@ -6387,32 +7122,44 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-400" y="-880"/>
     </wire>
     <wire>
-      <p1 x="400" y="1580"/>
-      <p2 x="400" y="1980"/>
+      <p1 x="-400" y="1120"/>
+      <p2 x="-400" y="2160"/>
     </wire>
     <wire>
-      <p1 x="400" y="1980"/>
-      <p2 x="400" y="2400"/>
+      <p1 x="-400" y="-40"/>
+      <p2 x="-400" y="20"/>
     </wire>
     <wire>
-      <p1 x="-660" y="880"/>
-      <p2 x="-660" y="1060"/>
+      <p1 x="-660" y="1120"/>
+      <p2 x="-660" y="1300"/>
     </wire>
     <wire>
       <p1 x="-660" y="-380"/>
-      <p2 x="-660" y="-200"/>
+      <p2 x="-660" y="-220"/>
     </wire>
     <wire>
       <p1 x="660" y="-420"/>
       <p2 x="660" y="420"/>
     </wire>
     <wire>
+      <p1 x="660" y="1740"/>
+      <p2 x="660" y="2000"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="-1780"/>
+      <p2 x="660" y="-1700"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="2000"/>
+      <p2 x="660" y="2380"/>
+    </wire>
+    <wire>
       <p1 x="1940" y="880"/>
-      <p2 x="1940" y="2280"/>
+      <p2 x="1940" y="2400"/>
     </wire>
     <wire>
       <p1 x="-920" y="-640"/>
-      <p2 x="-920" y="-420"/>
+      <p2 x="-920" y="-500"/>
     </wire>
     <wire>
       <p1 x="920" y="980"/>
@@ -6424,15 +7171,23 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="1180" y="960"/>
-      <p2 x="1180" y="1040"/>
+      <p2 x="1180" y="1060"/>
     </wire>
     <wire>
       <p1 x="-160" y="-500"/>
       <p2 x="-160" y="-480"/>
     </wire>
     <wire>
-      <p1 x="-160" y="880"/>
-      <p2 x="-160" y="1760"/>
+      <p1 x="-160" y="1120"/>
+      <p2 x="-160" y="1920"/>
+    </wire>
+    <wire>
+      <p1 x="-160" y="20"/>
+      <p2 x="-160" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-160" y="-160"/>
+      <p2 x="-160" y="-140"/>
     </wire>
     <wire>
       <p1 x="1440" y="-1000"/>
@@ -6443,28 +7198,32 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1440" y="540"/>
     </wire>
     <wire>
-      <p1 x="160" y="1580"/>
-      <p2 x="160" y="2100"/>
+      <p1 x="1440" y="1040"/>
+      <p2 x="1440" y="1180"/>
     </wire>
     <wire>
-      <p1 x="160" y="2100"/>
-      <p2 x="160" y="2400"/>
+      <p1 x="-420" y="-120"/>
+      <p2 x="-420" y="40"/>
     </wire>
     <wire>
-      <p1 x="-420" y="880"/>
-      <p2 x="-420" y="2020"/>
+      <p1 x="-420" y="-240"/>
+      <p2 x="-420" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="-420" y="1120"/>
+      <p2 x="-420" y="2180"/>
     </wire>
     <wire>
       <p1 x="-420" y="-800"/>
       <p2 x="-420" y="-780"/>
     </wire>
     <wire>
-      <p1 x="-420" y="-100"/>
-      <p2 x="-420" y="-80"/>
+      <p1 x="-420" y="80"/>
+      <p2 x="-420" y="100"/>
     </wire>
     <wire>
-      <p1 x="-420" y="-60"/>
-      <p2 x="-420" y="-20"/>
+      <p1 x="-420" y="120"/>
+      <p2 x="-420" y="140"/>
     </wire>
     <wire>
       <p1 x="-420" y="-1260"/>
@@ -6475,32 +7234,44 @@ implementing SLTI and SLTIU.</string>
       <p2 x="-420" y="-740"/>
     </wire>
     <wire>
-      <p1 x="-680" y="880"/>
-      <p2 x="-680" y="1060"/>
+      <p1 x="420" y="1740"/>
+      <p2 x="420" y="2120"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="2120"/>
+      <p2 x="420" y="2500"/>
+    </wire>
+    <wire>
+      <p1 x="-680" y="1120"/>
+      <p2 x="-680" y="1300"/>
     </wire>
     <wire>
       <p1 x="680" y="-440"/>
       <p2 x="680" y="340"/>
     </wire>
     <wire>
-      <p1 x="680" y="1580"/>
-      <p2 x="680" y="1840"/>
+      <p1 x="680" y="-1740"/>
+      <p2 x="680" y="-1720"/>
     </wire>
     <wire>
-      <p1 x="680" y="1840"/>
-      <p2 x="680" y="2260"/>
+      <p1 x="680" y="-1900"/>
+      <p2 x="680" y="-1880"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-1660"/>
+      <p2 x="680" y="-1560"/>
     </wire>
     <wire>
       <p1 x="1960" y="900"/>
-      <p2 x="1960" y="2300"/>
+      <p2 x="1960" y="2420"/>
     </wire>
     <wire>
-      <p1 x="-940" y="-340"/>
-      <p2 x="-940" y="-180"/>
+      <p1 x="-940" y="-420"/>
+      <p2 x="-940" y="-20"/>
     </wire>
     <wire>
-      <p1 x="-940" y="-180"/>
-      <p2 x="-940" y="-140"/>
+      <p1 x="-940" y="-20"/>
+      <p2 x="-940" y="20"/>
     </wire>
     <wire>
       <p1 x="940" y="-1660"/>
@@ -6647,16 +7418,28 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1200" y="-280"/>
     </wire>
     <wire>
+      <p1 x="-180" y="20"/>
+      <p2 x="-180" y="140"/>
+    </wire>
+    <wire>
       <p1 x="-180" y="-1140"/>
       <p2 x="-180" y="-1120"/>
     </wire>
     <wire>
-      <p1 x="-180" y="-100"/>
-      <p2 x="-180" y="-60"/>
+      <p1 x="-180" y="1120"/>
+      <p2 x="-180" y="1940"/>
     </wire>
     <wire>
-      <p1 x="-180" y="880"/>
-      <p2 x="-180" y="1780"/>
+      <p1 x="-180" y="-160"/>
+      <p2 x="-180" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="1740"/>
+      <p2 x="180" y="2240"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="2240"/>
+      <p2 x="180" y="2540"/>
     </wire>
     <wire>
       <p1 x="1460" y="-980"/>
@@ -6667,44 +7450,40 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1460" y="560"/>
     </wire>
     <wire>
-      <p1 x="-440" y="880"/>
-      <p2 x="-440" y="2040"/>
+      <p1 x="-440" y="-260"/>
+      <p2 x="-440" y="-180"/>
     </wire>
     <wire>
-      <p1 x="440" y="1580"/>
-      <p2 x="440" y="1960"/>
+      <p1 x="-440" y="1120"/>
+      <p2 x="-440" y="2200"/>
     </wire>
     <wire>
       <p1 x="440" y="-2180"/>
-      <p2 x="440" y="-1560"/>
-    </wire>
-    <wire>
-      <p1 x="440" y="800"/>
-      <p2 x="440" y="1480"/>
-    </wire>
-    <wire>
-      <p1 x="440" y="1960"/>
-      <p2 x="440" y="2380"/>
-    </wire>
-    <wire>
-      <p1 x="440" y="320"/>
-      <p2 x="440" y="640"/>
-    </wire>
-    <wire>
-      <p1 x="440" y="-1560"/>
       <p2 x="440" y="-1540"/>
     </wire>
     <wire>
+      <p1 x="440" y="800"/>
+      <p2 x="440" y="1420"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="1420"/>
+      <p2 x="440" y="1660"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="480"/>
+      <p2 x="440" y="640"/>
+    </wire>
+    <wire>
       <p1 x="440" y="-1540"/>
-      <p2 x="440" y="320"/>
+      <p2 x="440" y="480"/>
     </wire>
     <wire>
       <p1 x="440" y="640"/>
       <p2 x="440" y="800"/>
     </wire>
     <wire>
-      <p1 x="-700" y="880"/>
-      <p2 x="-700" y="1060"/>
+      <p1 x="-700" y="1120"/>
+      <p2 x="-700" y="1300"/>
     </wire>
     <wire>
       <p1 x="-700" y="-500"/>
@@ -6712,11 +7491,7 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="-700" y="-380"/>
-      <p2 x="-700" y="-180"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="840"/>
-      <p2 x="700" y="960"/>
+      <p2 x="-700" y="-20"/>
     </wire>
     <wire>
       <p1 x="700" y="-460"/>
@@ -6743,8 +7518,20 @@ implementing SLTI and SLTIU.</string>
       <p2 x="700" y="1360"/>
     </wire>
     <wire>
+      <p1 x="700" y="-2120"/>
+      <p2 x="700" y="-2060"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="1740"/>
+      <p2 x="700" y="1980"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="1980"/>
+      <p2 x="700" y="2360"/>
+    </wire>
+    <wire>
       <p1 x="1980" y="920"/>
-      <p2 x="1980" y="2320"/>
+      <p2 x="1980" y="2440"/>
     </wire>
     <wire>
       <p1 x="-960" y="-700"/>
@@ -6752,7 +7539,7 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="-960" y="-580"/>
-      <p2 x="-960" y="-420"/>
+      <p2 x="-960" y="-500"/>
     </wire>
     <wire>
       <p1 x="960" y="-760"/>
@@ -6820,7 +7607,7 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="1220" y="980"/>
-      <p2 x="1220" y="1100"/>
+      <p2 x="1220" y="1160"/>
     </wire>
     <wire>
       <p1 x="1220" y="-720"/>
@@ -6887,40 +7674,32 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1220" y="640"/>
     </wire>
     <wire>
-      <p1 x="-200" y="20"/>
-      <p2 x="-200" y="260"/>
+      <p1 x="-200" y="180"/>
+      <p2 x="-200" y="420"/>
     </wire>
     <wire>
       <p1 x="-200" y="-1260"/>
       <p2 x="-200" y="-1160"/>
     </wire>
     <wire>
-      <p1 x="-200" y="-100"/>
-      <p2 x="-200" y="-60"/>
+      <p1 x="-200" y="460"/>
+      <p2 x="-200" y="480"/>
     </wire>
     <wire>
-      <p1 x="-200" y="300"/>
-      <p2 x="-200" y="320"/>
+      <p1 x="-200" y="1120"/>
+      <p2 x="-200" y="1960"/>
     </wire>
     <wire>
-      <p1 x="-200" y="880"/>
-      <p2 x="-200" y="1800"/>
+      <p1 x="-200" y="-180"/>
+      <p2 x="-200" y="-140"/>
     </wire>
     <wire>
       <p1 x="200" y="-2180"/>
-      <p2 x="200" y="-2040"/>
+      <p2 x="200" y="-2100"/>
     </wire>
     <wire>
-      <p1 x="200" y="1580"/>
-      <p2 x="200" y="2080"/>
-    </wire>
-    <wire>
-      <p1 x="200" y="-2040"/>
+      <p1 x="200" y="-2100"/>
       <p2 x="200" y="-1680"/>
-    </wire>
-    <wire>
-      <p1 x="200" y="2080"/>
-      <p2 x="200" y="2380"/>
     </wire>
     <wire>
       <p1 x="200" y="-1680"/>
@@ -6936,7 +7715,7 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="200" y="-980"/>
-      <p2 x="200" y="1500"/>
+      <p2 x="200" y="1680"/>
     </wire>
     <wire>
       <p1 x="1480" y="-960"/>
@@ -6947,48 +7726,44 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1480" y="580"/>
     </wire>
     <wire>
-      <p1 x="-460" y="880"/>
-      <p2 x="-460" y="2060"/>
+      <p1 x="1480" y="1020"/>
+      <p2 x="1480" y="1600"/>
     </wire>
     <wire>
-      <p1 x="-720" y="880"/>
-      <p2 x="-720" y="1060"/>
+      <p1 x="-460" y="1120"/>
+      <p2 x="-460" y="2220"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="1740"/>
+      <p2 x="460" y="2100"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="2100"/>
+      <p2 x="460" y="2480"/>
+    </wire>
+    <wire>
+      <p1 x="-720" y="1120"/>
+      <p2 x="-720" y="1300"/>
     </wire>
     <wire>
       <p1 x="-720" y="-1220"/>
       <p2 x="-720" y="-1100"/>
     </wire>
     <wire>
-      <p1 x="-720" y="-120"/>
-      <p2 x="-720" y="-100"/>
+      <p1 x="-720" y="40"/>
+      <p2 x="-720" y="80"/>
     </wire>
     <wire>
       <p1 x="-720" y="-480"/>
       <p2 x="-720" y="-420"/>
     </wire>
     <wire>
-      <p1 x="2000" y="940"/>
-      <p2 x="2000" y="2340"/>
-    </wire>
-    <wire>
       <p1 x="720" y="-480"/>
       <p2 x="720" y="180"/>
     </wire>
     <wire>
-      <p1 x="720" y="-2160"/>
-      <p2 x="720" y="-2100"/>
-    </wire>
-    <wire>
-      <p1 x="720" y="-2060"/>
-      <p2 x="720" y="-2040"/>
-    </wire>
-    <wire>
-      <p1 x="720" y="1580"/>
-      <p2 x="720" y="1820"/>
-    </wire>
-    <wire>
-      <p1 x="720" y="1820"/>
-      <p2 x="720" y="2240"/>
+      <p1 x="2000" y="940"/>
+      <p2 x="2000" y="2460"/>
     </wire>
     <wire>
       <p1 x="980" y="1020"/>
@@ -7119,16 +7894,28 @@ implementing SLTI and SLTIU.</string>
       <p2 x="980" y="-1620"/>
     </wire>
     <wire>
+      <p1 x="-220" y="-200"/>
+      <p2 x="-220" y="-140"/>
+    </wire>
+    <wire>
       <p1 x="-220" y="-80"/>
-      <p2 x="-220" y="-60"/>
+      <p2 x="-220" y="160"/>
     </wire>
     <wire>
-      <p1 x="-220" y="880"/>
-      <p2 x="-220" y="1820"/>
+      <p1 x="-220" y="1120"/>
+      <p2 x="-220" y="1980"/>
     </wire>
     <wire>
-      <p1 x="1500" y="1080"/>
-      <p2 x="1500" y="1460"/>
+      <p1 x="220" y="1740"/>
+      <p2 x="220" y="2220"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="2220"/>
+      <p2 x="220" y="2520"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="980"/>
+      <p2 x="1500" y="1620"/>
     </wire>
     <wire>
       <p1 x="1500" y="-940"/>
@@ -7139,8 +7926,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1500" y="600"/>
     </wire>
     <wire>
-      <p1 x="-480" y="880"/>
-      <p2 x="-480" y="2080"/>
+      <p1 x="-480" y="1120"/>
+      <p2 x="-480" y="2240"/>
     </wire>
     <wire>
       <p1 x="-480" y="-520"/>
@@ -7148,35 +7935,23 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="-480" y="-280"/>
-      <p2 x="-480" y="440"/>
+      <p2 x="-480" y="600"/>
     </wire>
     <wire>
       <p1 x="-480" y="-1260"/>
       <p2 x="-480" y="-1200"/>
     </wire>
     <wire>
-      <p1 x="480" y="1580"/>
-      <p2 x="480" y="1940"/>
-    </wire>
-    <wire>
-      <p1 x="480" y="1940"/>
-      <p2 x="480" y="2360"/>
-    </wire>
-    <wire>
-      <p1 x="-740" y="880"/>
-      <p2 x="-740" y="1060"/>
+      <p1 x="-740" y="1120"/>
+      <p2 x="-740" y="1300"/>
     </wire>
     <wire>
       <p1 x="-740" y="-380"/>
-      <p2 x="-740" y="-220"/>
+      <p2 x="-740" y="-240"/>
     </wire>
     <wire>
-      <p1 x="-740" y="-180"/>
-      <p2 x="-740" y="-160"/>
-    </wire>
-    <wire>
-      <p1 x="2020" y="1040"/>
-      <p2 x="2020" y="2360"/>
+      <p1 x="-740" y="-20"/>
+      <p2 x="-740" y="0"/>
     </wire>
     <wire>
       <p1 x="740" y="820"/>
@@ -7189,6 +7964,14 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="740" y="-1520"/>
       <p2 x="740" y="-1320"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="1740"/>
+      <p2 x="740" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="1960"/>
+      <p2 x="740" y="2340"/>
     </wire>
     <wire>
       <p1 x="740" y="-1320"/>
@@ -7224,31 +8007,39 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="740" y="1420"/>
-      <p2 x="740" y="1480"/>
+      <p2 x="740" y="1520"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="1520"/>
+      <p2 x="740" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2020" y="740"/>
+      <p2 x="2020" y="2480"/>
     </wire>
     <wire>
       <p1 x="1000" y="1040"/>
-      <p2 x="1000" y="1180"/>
+      <p2 x="1000" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="1000"/>
+      <p2 x="1260" y="1040"/>
     </wire>
     <wire>
       <p1 x="-240" y="-880"/>
       <p2 x="-240" y="-800"/>
     </wire>
     <wire>
-      <p1 x="-240" y="880"/>
-      <p2 x="-240" y="1840"/>
+      <p1 x="-240" y="1120"/>
+      <p2 x="-240" y="2000"/>
     </wire>
     <wire>
       <p1 x="-240" y="-800"/>
       <p2 x="-240" y="-720"/>
     </wire>
     <wire>
-      <p1 x="240" y="1580"/>
-      <p2 x="240" y="2060"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="2060"/>
-      <p2 x="240" y="2360"/>
+      <p1 x="1520" y="980"/>
+      <p2 x="1520" y="1000"/>
     </wire>
     <wire>
       <p1 x="1520" y="-920"/>
@@ -7259,20 +8050,32 @@ implementing SLTI and SLTIU.</string>
       <p2 x="1520" y="620"/>
     </wire>
     <wire>
-      <p1 x="-500" y="880"/>
-      <p2 x="-500" y="2100"/>
+      <p1 x="-500" y="1120"/>
+      <p2 x="-500" y="2260"/>
     </wire>
     <wire>
       <p1 x="-500" y="-700"/>
       <p2 x="-500" y="-500"/>
     </wire>
     <wire>
-      <p1 x="-760" y="880"/>
-      <p2 x="-760" y="1060"/>
+      <p1 x="500" y="800"/>
+      <p2 x="500" y="840"/>
     </wire>
     <wire>
-      <p1 x="-760" y="-120"/>
-      <p2 x="-760" y="160"/>
+      <p1 x="500" y="1740"/>
+      <p2 x="500" y="2080"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="2080"/>
+      <p2 x="500" y="2460"/>
+    </wire>
+    <wire>
+      <p1 x="-760" y="1120"/>
+      <p2 x="-760" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="-760" y="40"/>
+      <p2 x="-760" y="320"/>
     </wire>
     <wire>
       <p1 x="-760" y="-500"/>
@@ -7280,23 +8083,15 @@ implementing SLTI and SLTIU.</string>
     </wire>
     <wire>
       <p1 x="-760" y="-380"/>
-      <p2 x="-760" y="-200"/>
-    </wire>
-    <wire>
-      <p1 x="2040" y="1060"/>
-      <p2 x="2040" y="2380"/>
-    </wire>
-    <wire>
-      <p1 x="760" y="1580"/>
-      <p2 x="760" y="1800"/>
+      <p2 x="-760" y="-40"/>
     </wire>
     <wire>
       <p1 x="760" y="-520"/>
       <p2 x="760" y="20"/>
     </wire>
     <wire>
-      <p1 x="760" y="-2160"/>
-      <p2 x="760" y="-2020"/>
+      <p1 x="760" y="-1800"/>
+      <p2 x="760" y="-1720"/>
     </wire>
     <wire>
       <p1 x="760" y="760"/>
@@ -7323,8 +8118,8 @@ implementing SLTI and SLTIU.</string>
       <p2 x="760" y="1480"/>
     </wire>
     <wire>
-      <p1 x="760" y="1800"/>
-      <p2 x="760" y="2220"/>
+      <p1 x="760" y="1480"/>
+      <p2 x="760" y="1640"/>
     </wire>
     <wire>
       <p1 x="760" y="920"/>
@@ -7333,6 +8128,10 @@ implementing SLTI and SLTIU.</string>
     <wire>
       <p1 x="760" y="1000"/>
       <p2 x="760" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="2040" y="960"/>
+      <p2 x="2040" y="2500"/>
     </wire>
     <wire>
       <p1 x="1020" y="-720"/>

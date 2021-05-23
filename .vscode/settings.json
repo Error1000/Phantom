@@ -1,0 +1,31 @@
+{
+    "cSpell.ignoreWords": [
+        "addi",
+        "alu",
+        "andi",
+        "arshft",
+        "cntrl",
+        "crst",
+        "fout",
+        "funct",
+        "immout",
+        "inva",
+        "invb",
+        "invout",
+        "ir",
+        "llshft",
+        "lrshft",
+        "op",
+        "outmod",
+        "rshft",
+        "signbit",
+        "signo",
+        "slli",
+        "slti",
+        "sltiu",
+        "srai",
+        "srli",
+        "subc",
+        "upimm"
+    ]
+}
