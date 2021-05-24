@@ -46,43 +46,44 @@ impl InstAddr {
 type ControlLine = u32;
 
 
-    const PC_ENC: ControlLine       = 1 << 0;
-    const PC_LOAD: ControlLine      = 1 << 1;
-    const PC_OUT: ControlLine       = 1 << 2;
+    const PC_ENC: ControlLine        = 1 << 0;
+    const PC_LOAD: ControlLine       = 1 << 1;
+    const PC_OUT: ControlLine        = 1 << 2;
 
-    const ALU_SWTCHA: ControlLine    = 1 << 3;
-    const ALU_SWTCHB: ControlLine    = 1 << 4;
-    const ALU_OP_B2: ControlLine     = 1 << 5;
-    const ALU_OP_B1: ControlLine     = 1 << 6;
-    const ALU_OP_B0: ControlLine     = 1 << 7;
+    const ALU_SWTCHA_B1: ControlLine = 1 << 3;
+    const ALU_SWTCHA_B0: ControlLine = 1 << 4;
+    const ALU_SWTCHB: ControlLine    = 1 << 5;
+    const ALU_OP_B2: ControlLine     = 1 << 6;
+    const ALU_OP_B1: ControlLine     = 1 << 7;
+    const ALU_OP_B0: ControlLine     = 1 << 8;
     
-    const ALU_OUTMOD_B1: ControlLine = 1 << 8;
-    const ALU_OUTMOD_B0: ControlLine = 1 << 9;
-    const CALC_RET_ADDR: ControlLine = 1 << 10;
-    const ALU_OUT: ControlLine       = 1 << 11;
+    const ALU_OUTMOD_B1: ControlLine = 1 << 9;
+    const ALU_OUTMOD_B0: ControlLine = 1 << 10;
+    const CALC_RET_ADDR: ControlLine = 1 << 11;
+    const ALU_OUT: ControlLine       = 1 << 12;
 
-    const REG_OUT: ControlLine       = 1 << 12;
+    const REG_OUT: ControlLine       = 1 << 13;
 
-    const ALU_MOUT: ControlLine      = 1 << 13;
+    const ALU_MOUT: ControlLine      = 1 << 14;
 
-    const CNTRL_IMMOUT: ControlLine = 1 << 14;
+    const CNTRL_IMMOUT: ControlLine  = 1 << 15;
 
-    const IR_ZR: ControlLine        = 1 << 15;
+    const IR_NOP: ControlLine        = 1 << 16;
 
-    const RAM_ENO: ControlLine      = 1 << 16;
-    const RAM_LOAD: ControlLine     = 1 << 17;
+    const RAM_ENO: ControlLine       = 1 << 17;
+    const RAM_LOAD: ControlLine      = 1 << 18;
 
-    const CNTRL_UPIMM: ControlLine  = 1 << 18;
-    const ROUT_TO_RIN: ControlLine  = 1 << 19;
+    const CNTRL_UPIMM: ControlLine   = 1 << 19;
+    const ROUT_TO_RIN: ControlLine   = 1 << 20;
 
-    const ALU_OP_ADD:   ControlLine  =         0 |         0 |         0;
-    const ALU_OP_AND:   ControlLine  =         0 |         0 | ALU_OP_B0;
-    const ALU_OP_XOR:   ControlLine  =         0 | ALU_OP_B1 |         0;
-    const ALU_OP_LLSHFT: ControlLine =         0 | ALU_OP_B1 | ALU_OP_B0;
-    const ALU_OP_RSHFT: ControlLine  = ALU_OP_B2 |         0 |         0;
-    const ALU_OP_SUB:   ControlLine  = ALU_OP_B2 |         0 | ALU_OP_B0;
+    const ALU_OP_ADD:   ControlLine   =         0 |         0 |         0;
+    const ALU_OP_AND:   ControlLine   =         0 |         0 | ALU_OP_B0;
+    const ALU_OP_XOR:   ControlLine   =         0 | ALU_OP_B1 |         0;
+    const ALU_OP_LLSHFT: ControlLine  =         0 | ALU_OP_B1 | ALU_OP_B0;
+    const ALU_OP_RSHFT: ControlLine   = ALU_OP_B2 |         0 |         0;
+    const ALU_OP_SUB:   ControlLine   = ALU_OP_B2 |         0 | ALU_OP_B0;
     const ALU_OP_OR:     ControlLine  = ALU_OP_B2 | ALU_OP_B1 |         0;
-    const ALU_OP_7:     ControlLine  = ALU_OP_B2 | ALU_OP_B1 | ALU_OP_B0;
+    const ALU_OP_7:     ControlLine   = ALU_OP_B2 | ALU_OP_B1 | ALU_OP_B0;
 
     const ALU_OUTMOD_NONE: ControlLine    =             0 |             0;
     const ALU_OUTMOD_SIGNBIT: ControlLine =             0 | ALU_OUTMOD_B0;
@@ -125,8 +126,8 @@ fn main(){
     }
 
     // Integer Register-Immediate Computational Instructions
-    const OP_IMM: u8 = 0x04;
-    const OP_LUI: u8 = 0x0D;
+    const OP_IMM:   u8 = 0x04;
+    const OP_LUI:   u8 = 0x0D;
     const OP_AUIPC: u8 = 0x05;
     const OP_OP:    u8 = 0x0C;
     const OP_JAL:   u8 = 0x1B;
@@ -156,9 +157,13 @@ fn main(){
 
         for ANY3 in 0u8 ..= 2u8.pow(3)-1 {
             r[InstAddr::from_fields_b(ANY3, ANY7 != 0, OP_LUI)]   |= CNTRL_IMMOUT | CNTRL_UPIMM | ROUT_TO_RIN; // LUI
-            r[InstAddr::from_fields_b(ANY3, ANY7 != 0, OP_AUIPC)] |= CNTRL_IMMOUT | CNTRL_UPIMM | ALU_SWTCHA | ALU_SWTCHB | ALU_OUT | ALU_OUTMOD_MUL4 | ALU_OP_ADD; // AUIPC
+            // Note: the convention is that the 
+            // output of the alu after any operation on addresses is always going to be a native address
+            // to get the address as byte-oriented do ALU_OUTMOD_MUL4
+            r[InstAddr::from_fields_b(ANY3, ANY7 != 0, OP_AUIPC)] |= CNTRL_IMMOUT | CNTRL_UPIMM | ALU_SWTCHA_B0 | ALU_SWTCHB | ALU_OUT | ALU_OUTMOD_MUL4 | ALU_OP_ADD; // AUIPC
         
-            r[InstAddr::from_fields_b(ANY3, ANY7 != 0, OP_JAL)] = CNTRL_IMMOUT | ALU_SWTCHA | ALU_SWTCHB | ALU_MOUT | ALU_OP_ADD | PC_LOAD | PC_OUT | PC_ENC | IR_ZR | CALC_RET_ADDR; // AUIPC
+            r[InstAddr::from_fields_b(ANY3, ANY7 != 0, OP_JAL)]  = CNTRL_IMMOUT | ALU_SWTCHA_B0 | ALU_SWTCHB | ALU_MOUT | ALU_OP_ADD | PC_LOAD | PC_OUT | PC_ENC | IR_NOP | CALC_RET_ADDR; // JAL
+            r[InstAddr::from_fields_b(ANY3, ANY7 != 0, OP_JALR)] = CNTRL_IMMOUT | ALU_SWTCHA_B1 | ALU_SWTCHB | ALU_MOUT | ALU_OP_ADD | PC_LOAD | PC_OUT | PC_ENC | IR_NOP | CALC_RET_ADDR; // JALR
         }
     }
 
