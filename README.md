@@ -4,7 +4,7 @@ Phantom
 A simple RV32E cpu, that is spec compliant( i think i haven't really tun tests yet ) except for:
  - it supports only the user isa
  - no interrupts
- - no support for missaligned addresses ( well actually you can do a jalr with missaligned address as long as they add up to an aligned address )
+ - no support for misaligned addresses ( well actually you can do a jalr with misaligned address as long as they add up to an aligned address )
  - memory ordering instruction is not implemented yet
 
 NOTE: The AUIPC instruction will
@@ -14,8 +14,8 @@ NOTE: The AUIPC instruction will
       address, which means it won't work correctly
       outside the first 4 gb, LUI will be fine tho.
 
-NOTE: Right now, an exception does not get triigered
-      on missaligned address, and they will just be silently truncated.
+NOTE: Right now, an exception does not get triggered
+      on misaligned address, and they will just be silently truncated.
       However i plan to just HLT the cpu in the future.
 
 NOTE: Should do a cleanup of the circuits, simplifying control lines
@@ -24,15 +24,15 @@ NOTE: Should do a cleanup of the circuits, simplifying control lines
       have varying degrees of granularity, maybe one might do
       only one thing like the OUT ones will generally only
       trigger a tri-state gate, or a lot of changes like AAU_SWTCHMOD
-      which will basically completly chage the behavieour of the AAU
+      which will basically completely change the behavior of the AAU
       in several ways.
       TL;DR The circuits need a bit of cleanup and the naming 
       of control lines should be more unified.
       
 Status:
-      Thankfully right now, it's still quite managable and i'm pretty
+      Thankfully right now, it's still quite manageable and i'm pretty
       close to finishing the base rv32e user ISA, so i think i'll
       finish that and then do a cleanup, then i'll see if i want
-      to add more, but i definetly want to get some software
-      pretty soon (TM) tho, so i might only do the base use isa for
+      to add more, but i definitely want to get some software
+      pretty soon (TM) tho, so i might only do the base user isa for
       this project.
