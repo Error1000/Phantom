@@ -1,9 +1,12 @@
 {
     "cSpell.ignoreWords": [
+        "aau",
         "addi",
+        "addrbus",
         "alu",
         "andi",
         "arshft",
+        "b",
         "cntrl",
         "crst",
         "fout",
@@ -17,6 +20,8 @@
         "lrshft",
         "op",
         "outmod",
+        "reg",
+        "regtrans",
         "rshft",
         "signbit",
         "signo",
@@ -26,6 +31,10 @@
         "srai",
         "srli",
         "subc",
+        "swtcha",
+        "swtchb",
+        "swtchmod",
+        "swthca",
         "upimm"
     ]
 }
