@@ -32,14 +32,24 @@ they are tied to variants.
 
 
 
-riscv is little endian
+riscv is in all implementations i've seen little endian
 In other words, doing:
-li a5, -1
+
+li a5, 0xff
 sw a5, 4(zero)
+
 is equal to:
-li a5, -1
+
+li a5, 0xff
 sb a5, 4(zero)
 sb zero, 5(zero)
 sb zero, 6(zero)
 sb zero, 7(zero)
 
+instead of this on big-endian:
+
+li a5, 0xff
+sb zero, 4(zero)
+sb zero, 5(zero)
+sb zero, 6(zero)
+sb a5,   7(zero)
