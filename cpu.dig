@@ -724,7 +724,7 @@
         </entry>
         <entry>
           <string>Frequency</string>
-          <int>50</int>
+          <int>500</int>
         </entry>
       </elementAttributes>
       <pos x="200" y="-2580"/>
@@ -4130,8 +4130,12 @@ native offset.</string>
           <string>Description</string>
           <string>SIGNBIT</string>
         </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
       </elementAttributes>
-      <pos x="1240" y="1080"/>
+      <pos x="1240" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4144,8 +4148,12 @@ native offset.</string>
           <string>Description</string>
           <string>SUBC</string>
         </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
       </elementAttributes>
-      <pos x="1220" y="1340"/>
+      <pos x="1140" y="1400"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
