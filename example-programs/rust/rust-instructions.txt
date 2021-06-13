@@ -1,5 +1,0 @@
-To build rust,
-just copy the contents of cargo-config
-to .cargo/config in your projects
-directory.
-For now you also need #![no_std] and #![no_main] in your main.rs

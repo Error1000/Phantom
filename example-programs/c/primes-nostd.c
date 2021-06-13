@@ -1,6 +1,6 @@
 #include <stdbool.h>
 
-void _start(void);
+
 void mmapedio_show(int val, unsigned int slot);
 unsigned int blen(unsigned int x);
 unsigned int __umodsi3(unsigned int a, unsigned int b);
