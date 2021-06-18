@@ -3,7 +3,9 @@
 // Right?
 static inline int main();
 
+static inline void exit(int code){ while(1); }
+
 void _start(void){
-	main();
-	while(1);
+	exit(main());
 }
+

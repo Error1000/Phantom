@@ -62,7 +62,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>OUT1</string>
+          <string>RS1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -76,7 +76,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>OUT2</string>
+          <string>RS2</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -5442,7 +5442,7 @@ in SRAI/SRLI</string>
       <p2 x="980" y="100"/>
     </wire>
     <wire>
-      <p1 x="-140" y="-1640"/>
+      <p1 x="-160" y="-1640"/>
       <p2 x="-80" y="-1640"/>
     </wire>
     <wire>
@@ -7170,6 +7170,10 @@ in SRAI/SRLI</string>
       <p2 x="1620" y="460"/>
     </wire>
     <wire>
+      <p1 x="-100" y="-2000"/>
+      <p2 x="320" y="-2000"/>
+    </wire>
+    <wire>
       <p1 x="-320" y="2000"/>
       <p2 x="700" y="2000"/>
     </wire>
@@ -7286,10 +7290,6 @@ in SRAI/SRLI</string>
       <p2 x="780" y="-2020"/>
     </wire>
     <wire>
-      <p1 x="-100" y="-2020"/>
-      <p2 x="320" y="-2020"/>
-    </wire>
-    <wire>
       <p1 x="-340" y="2020"/>
       <p2 x="660" y="2020"/>
     </wire>
@@ -7338,7 +7338,7 @@ in SRAI/SRLI</string>
       <p2 x="860" y="-1520"/>
     </wire>
     <wire>
-      <p1 x="-140" y="-1520"/>
+      <p1 x="-160" y="-1520"/>
       <p2 x="380" y="-1520"/>
     </wire>
     <wire>
@@ -8043,10 +8043,10 @@ in SRAI/SRLI</string>
     </wire>
     <wire>
       <p1 x="320" y="-2120"/>
-      <p2 x="320" y="-2020"/>
+      <p2 x="320" y="-2000"/>
     </wire>
     <wire>
-      <p1 x="320" y="-2020"/>
+      <p1 x="320" y="-2000"/>
       <p2 x="320" y="-1440"/>
     </wire>
     <wire>
@@ -8530,7 +8530,7 @@ in SRAI/SRLI</string>
       <p2 x="-100" y="940"/>
     </wire>
     <wire>
-      <p1 x="-100" y="-2020"/>
+      <p1 x="-100" y="-2000"/>
       <p2 x="-100" y="-1940"/>
     </wire>
     <wire>
@@ -8834,10 +8834,6 @@ in SRAI/SRLI</string>
       <p2 x="-140" y="180"/>
     </wire>
     <wire>
-      <p1 x="-140" y="-1640"/>
-      <p2 x="-140" y="-1520"/>
-    </wire>
-    <wire>
       <p1 x="-140" y="780"/>
       <p2 x="-140" y="900"/>
     </wire>
@@ -9000,6 +8996,10 @@ in SRAI/SRLI</string>
     <wire>
       <p1 x="-160" y="-300"/>
       <p2 x="-160" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="-160" y="-1640"/>
+      <p2 x="-160" y="-1520"/>
     </wire>
     <wire>
       <p1 x="160" y="840"/>
