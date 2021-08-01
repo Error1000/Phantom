@@ -3,7 +3,7 @@
 // Right?
 static inline int main();
 
-static inline void exit(int code){ while(1); }
+static inline void exit(volatile int code){ while(1); }
 
 void _start(void){
 	exit(main());

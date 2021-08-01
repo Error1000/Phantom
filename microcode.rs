@@ -83,6 +83,13 @@ type ControlLine = u32;
 
     const REG_OUT: ControlLine        = 1 << 24;
 
+    const _RAM_INSWTCH_B1: ControlLine = 1 << 25;
+    const _RAM_INSWTCH_B2: ControlLine = 1 << 26;
+
+    const _RAM_OUTSWTCH_B1: ControlLine = 1 << 27;
+    const _RAM_OUTSWTCH_B2: ControlLine = 1 << 28;
+    const _RAM_OUTSWTCH_B3: ControlLine = 1 << 29;
+
     // COMP stands for composed
     const ALU_OP_ADD:    ControlLine   =         0  |         0  |          0;
     const ALU_OP_AND:    ControlLine   =         0  |         0  | _ALU_OP_B0;
@@ -115,6 +122,20 @@ type ControlLine = u32;
     const ALU_OUT: ControlLine  = _ALU_OUT_B1 | _ALU_OUT_B0;
     const ALU_MOUT: ControlLine = _ALU_OUT_B1 |           0;
     const ALU_AOUT: ControlLine =           0 | _ALU_OUT_B0;
+
+    const RAM_IN_WORD: ControlLine =               0 |               0;
+//  const RAM_IN_WORD: ControlLine = _RAM_INSWTCH_B1 |               0;
+    const RAM_IN_BYTE: ControlLine =               0 | _RAM_INSWTCH_B2;
+    const RAM_IN_HALF: ControlLine = _RAM_INSWTCH_B1 | _RAM_INSWTCH_B2;
+
+    const RAM_OUT_BYTE_SEXT: ControlLine = _RAM_OUTSWTCH_B1 | _RAM_OUTSWTCH_B2 | _RAM_OUTSWTCH_B3;
+    const RAM_OUT_BYTE_ZEXT: ControlLine = _RAM_OUTSWTCH_B1 |                0 | _RAM_OUTSWTCH_B3;
+    const RAM_OUT_HALF_SEXT: ControlLine =                0 | _RAM_OUTSWTCH_B2 | _RAM_OUTSWTCH_B3;
+    const RAM_OUT_HALF_ZEXT: ControlLine =                0 |                0 | _RAM_OUTSWTCH_B3;
+    const RAM_OUT_WORD:      ControlLine =                0 |                0 |                0;
+ // const RAM_OUT_WORD:      ControlLine = _RAM_OUTSWTCH_B1 | _RAM_OUTSWTCH_B2 |                0;
+ // const RAM_OUT_WORD:      ControlLine = _RAM_OUTSWTCH_B1 |                0 |                0;
+ // const RAM_OUT_WORD:      ControlLine =                0 | _RAM_OUTSWTCH_B2 |                0;
 
 #[derive(Debug)]
 struct Rom {
@@ -151,7 +172,6 @@ fn main(){
         r.data[addr as usize] |= PC_ENC | PC_OUT | RAM_ENO;
     }
 
-    // Integer Register-Immediate Computational Instructions
     const OP_IMM:    u8 = 0x04;
     const OP_LUI:    u8 = 0x0D;
     const OP_AUIPC:  u8 = 0x05;
@@ -208,9 +228,18 @@ fn main(){
         r[InstAddr::from_fields_b(7, ANY7 != 0, OP_BRANCH)] = (CNTRL_IMMOUT | AAU_SWTCHMOD | PC_OUT /* calc branch addr */) | ( (PC_ENC | PC_LOAD) | AAU_OUT | IR_NOP /* load branch addr into pc, inducing pipeline stall */) | (ALU_SWTCHB_REG | ALU_OUTMOD_INVSUBC    | ALU_OP_SUB | ALU_OUT /* calc wether to branch or not, this is used by AAU */); // BGEU
 
 
-        r[InstAddr::from_fields_b(2, ANY7 != 0, OP_LOAD)]  = (CNTRL_IMMOUT | ALU_SWTCHA_REGDIV4 | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc load addr */) | (ALU_AOUT | IR_NOP /* make memory go to that addr */) | (RAM_ENO | MOUT_TO_RIN); // LW
+        r[InstAddr::from_fields_b(0, ANY7 != 0, OP_LOAD)]  = (CNTRL_IMMOUT | ALU_SWTCHA_REGDIV4 | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc load addr */) | (ALU_AOUT | IR_NOP /* make memory go to that addr */) | (RAM_ENO | RAM_OUT_BYTE_ZEXT | MOUT_TO_RIN); // LB
+        r[InstAddr::from_fields_b(1, ANY7 != 0, OP_LOAD)]  = (CNTRL_IMMOUT | ALU_SWTCHA_REGDIV4 | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc load addr */) | (ALU_AOUT | IR_NOP /* make memory go to that addr */) | (RAM_ENO | RAM_OUT_HALF_ZEXT | MOUT_TO_RIN); // LH
+        r[InstAddr::from_fields_b(2, ANY7 != 0, OP_LOAD)]  = (CNTRL_IMMOUT | ALU_SWTCHA_REGDIV4 | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc load addr */) | (ALU_AOUT | IR_NOP /* make memory go to that addr */) | (RAM_ENO | RAM_OUT_WORD      | MOUT_TO_RIN); // LW
 
-        r[InstAddr::from_fields_b(2, ANY7 != 0, OP_STORE)] = (CNTRL_IMMOUT | ALU_SWTCHA_REGDIV4 | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc load addr */) | (ALU_AOUT | IR_NOP /* make memory go to that addr */) | (RAM_LOAD | REG_OUT); // SW
+        r[InstAddr::from_fields_b(4, ANY7 != 0, OP_LOAD)]  = (CNTRL_IMMOUT | ALU_SWTCHA_REGDIV4 | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc load addr */) | (ALU_AOUT | IR_NOP /* make memory go to that addr */) | (RAM_ENO | RAM_OUT_BYTE_SEXT | MOUT_TO_RIN); // LBU
+        r[InstAddr::from_fields_b(5, ANY7 != 0, OP_LOAD)]  = (CNTRL_IMMOUT | ALU_SWTCHA_REGDIV4 | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc load addr */) | (ALU_AOUT | IR_NOP /* make memory go to that addr */) | (RAM_ENO | RAM_OUT_HALF_SEXT | MOUT_TO_RIN); // LHU
+
+
+        r[InstAddr::from_fields_b(2, ANY7 != 0, OP_STORE)] = (CNTRL_IMMOUT | ALU_SWTCHA_REGDIV4 | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc load addr */) | (ALU_AOUT | IR_NOP /* make memory go to that addr */) | (RAM_LOAD | RAM_IN_WORD | REG_OUT); // SW
+        r[InstAddr::from_fields_b(1, ANY7 != 0, OP_STORE)] = (CNTRL_IMMOUT | ALU_SWTCHA_REGDIV4 | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc load addr */) | (ALU_AOUT | IR_NOP /* make memory go to that addr */) | (RAM_LOAD | RAM_IN_HALF | REG_OUT); // SH
+        r[InstAddr::from_fields_b(0, ANY7 != 0, OP_STORE)] = (CNTRL_IMMOUT | ALU_SWTCHA_REGDIV4 | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc load addr */) | (ALU_AOUT | IR_NOP /* make memory go to that addr */) | (RAM_LOAD | RAM_IN_BYTE | REG_OUT); // SB
+
     }
 
    // DOWN-CLOCK: SWITCH IRS & LOAD in IR 1 & PARSE in IR 2
