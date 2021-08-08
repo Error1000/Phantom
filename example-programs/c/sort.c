@@ -29,6 +29,7 @@ void merge_sort(Slice v){
 		}
 		return;
 	}
+	// End points one past the end but begin does not, so we don't need to change v.p+len(v)/2
 	Slice left  = (Slice){v.p, v.p+len(v)/2};
 	Slice right = (Slice){v.p+len(v)/2, v.e};
 	merge_sort(left);

@@ -3,18 +3,24 @@
 
 #[panic_handler]
 fn panic(_info: &::core::panic::PanicInfo) -> ! {
-	mmapedio_show(0xDEAD, 0);
+	mmapedio_show(0xDEADB411, 0);
 	loop {}
 }
 
 const fn blen(x: usize) -> usize {
 	use core::mem;
+	// 0000  ... 100
+	// |           |
+	// bit n ...   bit 0
+	// msb   ...   lsb
+	
+	// left and right are inclusive, a.k.a the value they "point" to is unchecked as well ( as opposed to pointing one to the left/right of where we need to check )
 	let mut left: usize  = mem::size_of::<usize>() * 8;
 	let mut right: usize = 0;
 	while left > right {
-		let mid = (left+right)/2;
-		let mask = ((1 << (left-mid)) - 1) << mid;
-		if (x & mask) != 0 {
+		let mid = (left+right)/2; // Rounds to zero (right)
+		let left_mask = ((1 << (left-mid)) - 1) << mid;
+		if (x & left_mask) != 0 {
 			right = mid+1;
 		}else{
 			left = mid;

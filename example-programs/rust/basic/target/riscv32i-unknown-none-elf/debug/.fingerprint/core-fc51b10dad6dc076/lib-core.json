@@ -1,1 +1,0 @@
-{"rustc":8769930087152688496,"features":"[]","target":12087904288529291851,"profile":17520698749675258646,"path":5607650944355988468,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"riscv32i-unknown-none-elf/debug/.fingerprint/core-fc51b10dad6dc076/dep-lib-core"}}],"rustflags":["-C","link-arg=-Tlink.x"],"metadata":1557383491799763946,"config":0,"compile_kind":9817191695244810377}

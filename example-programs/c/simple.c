@@ -1,13 +1,15 @@
 #include "ulib/starter.h"
+//#include <stdio.h>
+int val;
 
 int main(){
 	// Tests endianness
-	volatile int* base = 0x1000;
+	int* base = &val;
 	*base = 0x12345678;
-	// In ram: 0x78563412 at 0x1000
-	if(*((volatile short*) base) == 0x5678){
-	// *((volatile short*)0x1002) = 0xCDEF;
-	*((volatile short*)0x1004) = 0x12AB;
+	// In ram: 0x78563412 at base
+	if(*((short*) base) == 0x5678){
+		// 4 bytes == 2 shorts == 1 int
+		*(((short*)base) + 2/*so we don't overwrite the int at base*/) = 0x12AB;
 	}
 	return 0;
 }
