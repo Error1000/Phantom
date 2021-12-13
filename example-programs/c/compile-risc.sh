@@ -21,5 +21,6 @@ riscv64-elf-gcc -Os -ffreestanding -nostartfiles \
 -nodefaultlibs -static \
 -ffunction-sections -Wl,-gc-sections -Wl,-Tld.script \
 -march=rv32e -mabi=ilp32e -o a.out "$@"
+
 ../trans-risc.sh a.out
 

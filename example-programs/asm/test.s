@@ -1,3 +1,4 @@
+_start:
 lui x14, 0x12345 # 20 bits
 addi x14, x14, 0x678 # 12 bits
 sw x14, 32(x0)

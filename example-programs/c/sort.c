@@ -34,6 +34,7 @@ void merge_sort(Slice v){
 	Slice right = (Slice){v.p+len(v)/2, v.e};
 	merge_sort(left);
 	merge_sort(right);
+
 	int buff[len(v)];
 	Slice r = (Slice){buff, buff+len(v)};
 	merges(left, right, r);
