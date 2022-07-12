@@ -726,6 +726,10 @@
           <string>Label</string>
           <string>CLK</string>
         </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>100</int>
+        </entry>
       </elementAttributes>
       <pos x="200" y="-2580"/>
     </visualElement>

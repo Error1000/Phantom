@@ -1,6 +1,18 @@
 #include <stdbool.h>
-#include "ulib/core.h"
-#include "ulib/starter.h"
+#ifdef RISCV_BARE_METAL
+ #include "ulib/prelude.h"
+#else
+ #include <stdio.h>
+ #include <stdlib.h>
+#endif
+
+#ifdef RISCV_BARE_METAL
+	#define show(x) { mmapedio_show(x); }
+#else
+	#define show(x) { printf("%i\n", x); fflush(stdout); }
+#endif
+
+
 
 typedef struct {
 	int *p;
@@ -42,33 +54,31 @@ void merge_sort(Slice v){
 		v.p[i] = r.p[i];
 }
 
-// #include <stdio.h>
+
 
 #define MMAPED_IO_BASE 0x10000
 
 // Sidefects may include writing to RAM
-void mmapedio_show(int val, unsigned int slot){
-        *((volatile int*)MMAPED_IO_BASE + slot) = val;
-/*
-	printf("%d ", val);
-	fflush(stdout);
-*/
+void mmapedio_show(int val){
+	static unsigned int slot = 0;
+	*((volatile int*)MMAPED_IO_BASE + slot) = val;
+	slot++;
 }
+
 
 int main(){
 	#define SIZE 11
-	unsigned int slot = 0;
-	int arr[] = {6, 8, 1, 4, 5, 2, 7, 9, 10, 0, 3};
+	int arr[SIZE] = {6, 8, 1, 4, 5, 2, 7, 9, 10, 0, 3};
 	for(unsigned int i = 0; i < SIZE; ++i)
-		mmapedio_show(arr[i], slot++);
-	mmapedio_show(0xFFFF0000, slot++);
+		show(arr[i]);
+	show(0xFFFF0000);
 
 	merge_sort((Slice){arr, arr+SIZE});
 
 	for(unsigned int i = 0; i < SIZE; ++i)
-		mmapedio_show(arr[i], slot++);
+		show(arr[i]);
 
 
-	mmapedio_show(-1, slot++);
+	show(-1);
 	return 0;
 }

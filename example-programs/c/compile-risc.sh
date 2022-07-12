@@ -1,6 +1,6 @@
 #!/bin/bash
-rm a.out
-rm ld.script
+rm -f a.out
+rm -f ld.script
 # For putting _start at the beginning
 touch ld.script
 echo "ENTRY(_start)" >> ld.script
@@ -17,10 +17,9 @@ echo "}" >> ld.script
 # No deps options
 # Linker options
 # Arch options and output
-riscv64-elf-gcc -Os -ffreestanding -nostartfiles \
--nodefaultlibs -static \
+riscv64-elf-gcc -Os -static \
+-ffreestanding -nostartfiles -nodefaultlibs \
 -ffunction-sections -Wl,-gc-sections -Wl,-Tld.script \
--march=rv32e -mabi=ilp32e -o a.out "$@"
+-march=rv32e -mabi=ilp32e -D RISCV_BARE_METAL -o a.out "$@"
 
-../trans-risc.sh a.out
-
+rm ld.script

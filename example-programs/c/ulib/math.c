@@ -1,7 +1,7 @@
 #include "math.h"
 
 unsigned int blen(unsigned int x){
-	unsigned int left = sizeof(x)*8; /// TOOD: Support bytes that are not 8 bits in length
+	unsigned int left = sizeof(x)*8;
 	unsigned int right = 0;
 
 	// We increase to go to the left
@@ -42,13 +42,26 @@ unsigned int isqrt(unsigned int x){
 			w -= t; // Subtract t if it is less than w
 			res |= 1;
 		}else{
-			// Don't subtract t, instead put a zero and try a new group
+			// Don't subtract it, instead put a zero and try a new group
 			res |= 0;
 		}
 	}
 	return res;
 }
 
+unsigned int __umodsi3(unsigned int a, unsigned int b) {
+    unsigned int lb = blen(b);
+
+    while(a > b){
+        unsigned int la = blen(a);
+        if(la == lb) break;
+        b <<= (la-lb)-1;
+        while(a >= b) a -= b;
+        b >>= (la-lb)-1;
+    }
+    while(a >= b) a -= b;
+    return a;
+}
 
 
 

@@ -1,11 +1,7 @@
 #pragma once
 
 #include "starter.h"
-
-unsigned int __umodsi3(unsigned int a, unsigned int b){
-	for(; a >= b; a -=b );
-	return a;
-}
+#include "math.h"
 
 void* memcpy(void* dest, const void* src, unsigned int count){
 	// Count is in bytes

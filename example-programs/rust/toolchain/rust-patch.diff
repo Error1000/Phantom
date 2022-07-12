@@ -1,0 +1,95 @@
+diff --git a/compiler/rustc_codegen_llvm/src/context.rs b/compiler/rustc_codegen_llvm/src/context.rs
+index 55e4a4a7255..4946ce0fa9a 100644
+--- a/compiler/rustc_codegen_llvm/src/context.rs
++++ b/compiler/rustc_codegen_llvm/src/context.rs
+@@ -173,7 +173,7 @@ pub unsafe fn create_module<'ll>(
+         llvm::LLVMRustDisposeTargetMachine(tm);
+ 
+         let llvm_data_layout = llvm::LLVMGetDataLayoutStr(llmod);
+-        let llvm_data_layout = str::from_utf8(CStr::from_ptr(llvm_data_layout).to_bytes())
++        let mut llvm_data_layout = str::from_utf8(CStr::from_ptr(llvm_data_layout).to_bytes())
+             .expect("got a non-UTF8 data-layout from LLVM");
+ 
+         // Unfortunately LLVM target specs change over time, and right now we
+@@ -194,6 +194,13 @@ pub unsafe fn create_module<'ll>(
+         let cfg_llvm_root = option_env!("CFG_LLVM_ROOT").unwrap_or("");
+         let custom_llvm_used = cfg_llvm_root.trim() != "";
+ 
++        // The e feature of riscv32/64 changes the data layout
++        if sess.target.arch == "riscv32" {
++            if sess.target.options.abi.trim() == "ilp32e" {
++                llvm_data_layout = "e-m:e-p:32:32-i64:64-n32-S32";
++            }
++        }
++        
+         if !custom_llvm_used && target_data_layout != llvm_data_layout {
+             bug!(
+                 "data-layout for target `{rustc_target}`, `{rustc_layout}`, \
+diff --git a/compiler/rustc_target/src/spec/mod.rs b/compiler/rustc_target/src/spec/mod.rs
+index 48ccb10f214..05f7f724625 100644
+--- a/compiler/rustc_target/src/spec/mod.rs
++++ b/compiler/rustc_target/src/spec/mod.rs
+@@ -987,6 +987,7 @@ fn $module() {
+     ("x86_64-unknown-hermit", x86_64_unknown_hermit),
+ 
+     ("riscv32i-unknown-none-elf", riscv32i_unknown_none_elf),
++    ("riscv32e-unknown-none-elf", riscv32e_unknown_none_elf),
+     ("riscv32im-unknown-none-elf", riscv32im_unknown_none_elf),
+     ("riscv32imc-unknown-none-elf", riscv32imc_unknown_none_elf),
+     ("riscv32imc-esp-espidf", riscv32imc_esp_espidf),
+diff --git a/compiler/rustc_target/src/spec/riscv32e_unknown_none_elf.rs b/compiler/rustc_target/src/spec/riscv32e_unknown_none_elf.rs
+new file mode 100644
+index 00000000000..07215252273
+--- /dev/null
++++ b/compiler/rustc_target/src/spec/riscv32e_unknown_none_elf.rs
+@@ -0,0 +1,27 @@
++use crate::spec::{LinkerFlavor, LldFlavor, PanicStrategy, RelocModel};
++use crate::spec::{Target, TargetOptions};
++
++pub fn target() -> Target {
++    Target {
++        data_layout: "e-m:e-p:32:32-i64:64-n32-S32".into(),
++        llvm_target: "riscv32".into(),
++        pointer_width: 32,
++        arch: "riscv32".into(),
++
++        options: TargetOptions {
++	    llvm_abiname: "ilp32e".into(),
++	    features: "+e".into(),
++            linker_flavor: LinkerFlavor::Lld(LldFlavor::Ld),
++            linker: Some("rust-lld".into()),
++            cpu: "generic-rv32".into(),
++            max_atomic_width: Some(0),
++            atomic_cas: false,
++            executables: true,
++            panic_strategy: PanicStrategy::Abort,
++            relocation_model: RelocModel::Static,
++            emit_debug_gdb_scripts: false,
++            eh_frame_header: false,
++            ..Default::default()
++        },
++    }
++}
+diff --git a/urmom.json b/urmom.json
+new file mode 100644
+index 00000000000..c16687638f6
+--- /dev/null
++++ b/urmom.json
+@@ -0,0 +1,17 @@
++{
++  "arch": "riscv32",
++  "abi": "ilp32e",
++  "atomic-cas": false,
++  "cpu": "generic-rv32",
++  "data-layout": "e-m:e-p:32:32-i64:64-n32-S32",
++  "eh-frame-header": false,
++  "emit-debug-gdb-scripts": false,
++  "executables": true,
++  "linker": "rust-lld",
++  "linker-flavor": "ld.lld",
++  "llvm-target": "riscv32",
++  "max-atomic-width": 0,
++  "panic-strategy": "abort",
++  "relocation-model": "static",
++  "target-pointer-width": "32"
++}

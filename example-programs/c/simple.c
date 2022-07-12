@@ -1,5 +1,4 @@
 #include "ulib/starter.h"
-//#include <stdio.h>
 int val;
 
 int main(){

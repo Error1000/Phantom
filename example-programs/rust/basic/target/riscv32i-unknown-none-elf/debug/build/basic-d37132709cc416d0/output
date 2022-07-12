@@ -1,2 +1,0 @@
-cargo:rustc-link-arg=-static
-cargo:rustc-link-arg=-Tlink.x

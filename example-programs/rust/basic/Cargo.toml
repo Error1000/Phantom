@@ -7,11 +7,10 @@ edition = "2018"
 
 [dependencies]
 
+
 [profile.release]
 opt-level = 3
-panic = "abort"
 lto = true
 
 [profile.dev]
 opt-level = "z"
-panic = "abort"

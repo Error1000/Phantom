@@ -1,13 +1,25 @@
 #include <stdbool.h>
-#include "ulib/starter.h"
-#include "ulib/core.h"
-#include "ulib/math.h"
+
+#ifdef RISCV_BARE_METAL
+	#include "ulib/prelude.h"
+#else
+	#include <stdio.h>
+#endif
+
+#ifdef RISCV_BARE_METAL
+	#define show(x) mmapedio_show(x)
+#else
+	#define show(x) printf("%i\n", x)
+#endif
+
 
 #define MMAPED_IO_BASE 0x10000
 
 // Sidefects may include writing to RAM
-void mmapedio_show(int val, unsigned int slot){
+void mmapedio_show(int val){
+	static unsigned int slot = 0;
 	*((volatile int*)MMAPED_IO_BASE + slot) = val;
+	slot++;
 }
 
 bool is_prime(unsigned int x){
@@ -21,9 +33,10 @@ bool is_prime(unsigned int x){
 	return true;
 }
 
+
 int main(){
 	unsigned int c = 0;
 	for(unsigned int i = 0; i <= (1 << 31); i++)
-		if(is_prime(i)) mmapedio_show(i, c++);
+		if(is_prime(i)) show(i); 
 	return 0;
 }

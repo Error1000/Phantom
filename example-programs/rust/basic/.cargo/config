@@ -1,2 +1,2 @@
 [build]
-target = "riscv32i-unknown-none-elf"
+target = "riscv32e-unknown-none-elf"

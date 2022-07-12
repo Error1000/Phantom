@@ -1,6 +1,9 @@
 #!/bin/bash
+if [ -z "$XLEN" ]; then
+	XLEN=32
+fi
 echo "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
-riscv64-elf-objdump -d "$1" -M numeric
+riscv$XLEN-elf-objdump -d "$1" -M numeric
 echo "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
-riscv64-elf-objdump -s "$1"
-riscv64-elf-objcopy --reverse-bytes=4 -O binary -j .text -j .rodata -j .data "$1" /tmp/res.bin
+riscv$XLEN-elf-objdump -s "$1"
+riscv$XLEN-elf-objcopy --reverse-bytes=4 --output-target binary -j .text -j .rodata -j .data "$1" /tmp/res.bin
