@@ -3,9 +3,8 @@ Phantom
 
 A simple RV32E cpu, that is spec compliant( i think i haven't really run tests yet ) except for:
  - it supports only the user isa
- - no interrupts
+ - no interrupts or exceptions yet
  - no support for misaligned addresses ( well actually you can do a jalr with misaligned address as long as they add up to an aligned address )
- - memory ordering instruction is not implemented yet
 
 NOTE: The AUIPC instruction will
       just chop off the high 2 bits
@@ -30,14 +29,8 @@ NOTE: Should do a cleanup of the circuits, simplifying control lines
       TL;DR The circuits need a bit of cleanup and the naming 
       of control lines should be more unified.
 
-NOTE:  Should porbs add special instruction to set the 2 high bits of ram address that cannot be set normally.
+NOTE:  Should probs add special instruction to set the 2 high bits of ram address that cannot be set normally.
        Could probablly use that for nice out of the way mmaped-io.
        
 Status:
-      Thankfully right now, it's still quite manageable and i'm pretty
-      close to finishing the base rv32e user ISA, so i think i'll
-      finish that and then do a cleanup, then i'll see if i want
-      to add more, but i definitely want to get some software
-      pretty soon (TM) tho, so i might only do the base user isa for
-      this project.
-
+      Stalled, probablly not gonna spend more time on this project.

@@ -181,6 +181,7 @@ fn main(){
     const OP_BRANCH: u8 = 0x18;
     const OP_LOAD:   u8 = 0x00;
     const OP_STORE:  u8 = 0x08;
+    const OP_FENCE:  u8 = 0x03;
 
     for ANY7 in 0u8 ..= 2u8.pow(1)-1 {
         r[InstAddr::from_fields_b(0, ANY7 != 0, OP_IMM)] |= CNTRL_IMMOUT | ALU_OUT | ALU_OUTMOD_NONE    | ALU_OP_ADD;       // ADDI
@@ -216,6 +217,7 @@ fn main(){
         
             r[InstAddr::from_fields_b(ANY3, ANY7 != 0, OP_JAL)]  = (CNTRL_IMMOUT | ALU_SWTCHA_ADDRBUS | PC_OUT | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc jump addr */) | ( ALU_MOUT | PC_LOAD | PC_ENC | IR_NOP /* load jump addr into pc, inducing pipeline stall */) | (AAU_OUT /* store ret addr in rd register */); // JAL
             r[InstAddr::from_fields_b(ANY3, ANY7 != 0, OP_JALR)] = (CNTRL_IMMOUT | ALU_SWTCHA_REGDIV4 | PC_OUT | ALU_SWTCHB_IMMDIV4 | ALU_OP_ADD /* calc jump addr */) | ( ALU_MOUT | PC_LOAD | PC_ENC | IR_NOP /* load jump addr into pc, inducing pipeline stall */) | (AAU_OUT /* store ret addr in rd register */); // JALR
+            r[InstAddr::from_fields_b(ANY3, ANY7 != 0, OP_FENCE)] = 0;
         }
 
 
