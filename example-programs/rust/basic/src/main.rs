@@ -7,6 +7,7 @@ fn panic(_info: &::core::panic::PanicInfo) -> ! {
 	loop {}
 }
 
+
 const fn blen(x: usize) -> usize {
 	use core::mem;
 	// 0000  ... 100
@@ -96,14 +97,13 @@ const fn is_prime(x: usize) -> bool{
 
 
 #[no_mangle]
-pub extern "C" fn _start() {
+pub extern "C" fn _start() -> ! {
 	let mut cslot  = 0;
-
 	for i in 1.. {
 		if is_prime(i){
 			mmapedio_show(i, &mut cslot);
 		}
 	}
 
-	loop {}
+	loop { }
 }

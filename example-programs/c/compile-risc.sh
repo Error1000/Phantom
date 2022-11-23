@@ -17,7 +17,7 @@ echo "}" >> ld.script
 # No deps options
 # Linker options
 # Arch options and output
-riscv64-elf-gcc -Os -static \
+riscv64-unknown-elf-gcc -Os -static \
 -ffreestanding -nostartfiles -nodefaultlibs \
 -ffunction-sections -Wl,-gc-sections -Wl,-Tld.script \
 -march=rv32e -mabi=ilp32e -D RISCV_BARE_METAL -o a.out "$@"

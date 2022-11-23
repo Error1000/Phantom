@@ -1,6 +1,7 @@
 fn main(){
        for arg in &["-static",
-                    "-Tlink.x"
+                    "-Tlink.x",
+		    //"-nostartfiles",
 		   ] {
                println!("cargo:rustc-link-arg={}", arg);
        }
